@@ -797,10 +797,10 @@ section {
 #contact .cItem {
   background-color: #000033;
   width: 100%;
-  height: 12vw;
+  height: 15vw;
 }
 #contact .creatorContainer {
-  width: 85%;
+  width: 88%;
   margin: 15vw auto;
   background-color: #66ccff;
 }
@@ -808,10 +808,41 @@ section {
   border: #66ccff double 4px;
   padding: 4vw 4vw;
 }
+#contact .creatorContainer .creatorBox .cItem {
+  position: relative;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img {
+  position: absolute;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(1) {
+  width: 15%;
+  bottom: 1px;
+  right: 2%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(3) img {
+  position: absolute;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(3) img:nth-child(1) {
+  width: 11%;
+  bottom: 1px;
+  right: 30%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(3) img:nth-child(2) {
+  width: 26.5%;
+  bottom: 1px;
+  right: 2px;
+}
 #contact .creatorContainer .profile {
   background-color: #000033;
   margin: 2vw 0;
-  padding: 5vw 2vw;
+  padding: 6vw 2vw;
+  font-size: 3.5vw;
+}
+#contact .creatorContainer .profile .profileImg {
+  width: 60vw;
+  height: 40vw;
+  margin: 5vw auto;
+  border: #faebd7 2px solid;
 }
 #contact .creatorContainer .creatorSNS {
   display: flex;
@@ -821,8 +852,13 @@ section {
   margin: 2vw 0;
   padding: 4vw 0 2px;
 }
+#contact .creatorContainer .creatorSNS h4 {
+  font-size: 5vw;
+  border: 3px double #66ccff;
+  padding: 0.5vw 3vw;
+}
 #contact .contactContainer {
-  width: 85%;
+  width: 88%;
   margin: 36vw auto;
   background-color: #66ccff;
 }
@@ -830,9 +866,39 @@ section {
   text-align: center;
   padding: 4vw 4vw;
 }
+#contact .contactContainer .contactContents .cItem {
+  position: relative;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img {
+  position: absolute;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(1) {
+  width: 12%;
+  bottom: 1px;
+  left: 3%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(2) {
+  width: 11%;
+  bottom: 1px;
+  left: 15%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(3) {
+  width: 26.5%;
+  bottom: 1px;
+  right: 2px;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(2) img:nth-child(1) {
+  width: 9vw;
+  bottom: 1px;
+  left: 8vw;
+}
 #contact .contactContainer .contactBox {
   background-color: #000033;
   margin: 2vw 0;
+  padding: 6vw 2vw;
+}
+#contact .contactContainer .contactBox .contactInfo {
+  margin-bottom: 3vw;
 }
 #contact .contactContainer .inquiry {
   display: block;
@@ -857,6 +923,7 @@ section {
   font-size: 12vw;
   color: #000033;
   text-align: center;
+  height: 13vw;
 }
 #contact li {
   list-style: none;
