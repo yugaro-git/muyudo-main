@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>夢遊堂</title>
+    <!-- font -->
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "emc4drg",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap"
+      rel="stylesheet"
+    />
+    <script src="lottie/lottie-player.js"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.min.css?0728" />
+  </head>
+  <body class="hamSwich">
+    <header>
+      <nav id="js-nav">
+        <img src="img/kanban.webp" class="kanban" alt="" />
+        <ul>
+          <li><a href="#about" class="nav_item nav_mainitem">About</a></li>
+          <li><a href="#works" class="nav_item nav_mainitem">Works</a></li>
+          <li><a href="#accesory" class="nav_item nav_subitem">Accesory</a></li>
+          <li><a href="#web" class="nav_item nav_subitem">Web</a></li>
+          <li><a href="#movie" class="nav_item nav_subitem">Movie</a></li>
+          <li><a href="#other" class="nav_item nav_subitem">Other</a></li>
+          <li><a href="#contact" class="nav_item nav_mainitem">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="js-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <main>
+      <div class="bg_img">
+        <div class="bg_1"></div>
+      </div>
+      <lottie-player
+        class="nyoro_1 bg_2"
+        src="img/nyoro5.json"
+        loop
+        mode="bounce"
+      ></lottie-player>
+      <lottie-player
+        class="nyoro_2 bg_2"
+        src="img/nyoro5.json"
+        loop
+        mode="bounce"
+      ></lottie-player>
+      <section class="first_view">
+        <div class="hero_box">
+          <div class="door">
+            <div class="doorflame"></div>
+            <div class="doorknob"></div>
+          </div>
+
+          <p class="herotext">design<br />&amp;<br />create</p>
+        </div>
+        <h1 class="herotext">夢遊堂</h1>
+      </section>
+
+      <section id="about">
+        <h2>
+          ようこそ<br class="pcOnly" />
+          <span>夢遊堂へ</span>
+        </h2>
+        <div class="rantan">
+          <div class="light"></div>
+          <img src="img/rantan.png" alt="" />
+        </div>
+        <!-- キャッチコピーを入れる -->
+        <p class="about_catch">
+          他にはない<br /><span>ここならではの</span><br /><span
+            >デザインを</span
+          >
+        </p>
+        <!-- 一味違う楽しいデザインを -->
+        <div class="about_text">
+          <!-- 夢遊堂は webやグラフィック アクセサリーや雑貨を デザイン・作成し
+            生活に楽しさを お届けします。 -->
+          夢遊堂ではデザインや創作を通して、
+        </div>
+      </section>
+
+      <section id="works">
+        <div class="workSpace">
+          <h2>works</h2>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 354.1 491.54"
+            class="tenkyuBody"
+          >
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #003;
+                }
+
+                .cls-1,
+                .cls-2 {
+                  stroke-width: 0px;
+                }
+
+                .cls-2 {
+                  fill: #6cf;
+                }
+              </style>
+            </defs>
+            <rect
+              class="cls-2"
+              x="309.1"
+              y="302.58"
+              width="9"
+              height="21.92"
+              transform="translate(-129.86 313.58) rotate(-45)"
+            />
+            <path
+              class="cls-2"
+              d="m325.1,312.04c0-6.9-5.6-12.5-12.5-12.5-1.94,0-3.76.45-5.4,1.24l-.88-.88c29.6-31.04,47.78-73.07,47.78-119.36,0-95.55-77.45-173-173-173-46.49,0-88.69,18.34-119.77,48.17,1.66-3.6,1-8-1.99-10.94-2.56-2.52-6.17-3.31-9.39-2.41-.66-3.65-.89-8.21-.15-13.75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0h0C19.82,19.48,0,0,0,0c0,0,19.82,19.48,29.46,49.31h0s0,0,0,0c0,0,0,0,0,0,0,0,0,0,0,0,5.53-.84,10.09-.69,13.76-.09-.85,3.24,0,6.83,2.57,9.34,2.94,2.89,7.27,3.51,10.81,1.88-30.02,31.12-48.49,73.45-48.49,120.1,0,93.76,74.57,170.09,167.64,172.91l-7.69,17.09h-3.2c-3.25,0-5.41,1-4.07,1.88,3.06,2.02,7.31,5.25,7.31,7.62,0,2.59-4.07,5.67-7.12,7.6-1.39.89.78,1.9,4.05,1.9h3.4c-2.69,3.08-4.32,7.1-4.32,11.5s1.63,8.42,4.32,11.5h-3.57c-3.25,0-5.41,2.58-4.07,4.86,3.06,5.2,7.31,13.53,7.31,19.64s-3.52,13.5-6.46,18.5h-7.03c-7.46,0-13.5,6.04-13.5,13.5,0,.67.07,1.32.16,1.97-14.33,1.6-28.49,3.92-42.28,6.85-13.82,2.94-27.65,5.31-40.37,7.2-3.85.57-3.45,6.48.44,6.48h244.1c3.91,0,4.28-5.94.41-6.48-14.84-2.09-30.38-4.76-44.34-8.11-12.54-3.01-25.31-5.15-38.19-6.51.05-.46.07-.93.07-1.4,0-7.46-6.04-13.5-13.5-13.5h-6.79c-2.54-4.79-5.49-11.71-5.49-18,0-6.63,3.78-15.11,6.46-20.29,1.17-2.26-1-4.71-4.15-4.71h-2.85c2.69-3.08,4.32-7.1,4.32-11.5s-1.63-8.42-4.32-11.5h2.58c3.21,0,5.37-.98,4.11-1.86-2.66-1.85-6.15-4.79-6.15-7.45s3.78-5.85,6.46-7.86c1.17-.88-1-1.83-4.15-1.83h-3.48l-7.69-17.09c43.91-1.33,83.7-19.03,113.49-47.2l1.08,1.08c-.59,1.45-.93,3.04-.93,4.71,0,6.9,5.6,12.5,12.5,12.5.82,0,1.62-.08,2.4-.24l7.67,7.67,9.43-9.43-7.4-7.4c.25-.99.4-2.03.4-3.1Zm-38.6-19.23c-27.55,25.88-64.62,41.73-105.4,41.73-85.05,0-154-68.95-154-154,0-40.78,15.86-77.85,41.73-105.4l6.35-6.38c27.6-26.16,64.89-42.22,105.92-42.22,85.05,0,154,68.95,154,154,0,41.03-16.05,78.32-42.22,105.92l-6.38,6.35Z"
+            />
+            <path
+              class="cls-1"
+              d="m181.1,13.54C88.87,13.54,14.1,88.31,14.1,180.54s74.77,167,167,167,167-74.77,167-167S273.33,13.54,181.1,13.54Zm0,331c-90.57,0-164-73.43-164-164S90.52,16.54,181.1,16.54s164,73.43,164,164-73.43,164-164,164Z"
+            />
+          </svg>
+          <div class="tennkyuBox">
+            <lottie-player
+              class="tenkyuu animationSwich"
+              src="img/tenkyuu.json"
+              loop
+              mode="bounce"
+              data-action="lottie"
+            ></lottie-player>
+          </div>
+          <div class="shelfBoard"></div>
+          <div class="shelfBoard"></div>
+          <div class="shelfPillar"></div>
+          <img src="img/neko.webp" class="nekoObje" alt="" />
+          <div class="works_nav">
+            <h3>contents</h3>
+            <ul>
+              <li><a href="#accesory">Accesory</a></li>
+              <li><a href="#web">Web</a></li>
+              <li><a href="#movie">Movie</a></li>
+              <li><a href="#other">Other</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="shelfContainer">
+          <div id="accesory" class="works_container">
+            <div class="shelfBoard"></div>
+            <h3>Accessory</h3>
+
+            <div class="works_img"><img src="img/accetest.jpg" alt="" /></div>
+
+            <p class="accesory_text">
+              銀や真鍮を素材に
+              <br />遊び心のあるここだけのデザインを
+              <br />メインに制作しています。
+            </p>
+            <div class="zakkaSpace">
+              <img src="img/pendanto.webp" alt="" />
+              <img src="img/yubiwa.webp" alt="" />
+              <a href="" class="viewmore">詳しく見る&rArr;</a>
+            </div>
+          </div>
+          <div id="web" class="works_container">
+            <div class="shelfBoard"></div>
+            <h3>Web</h3>
+
+            <div class="works_img"><img src="img/webtest.jpg" alt="" /></div>
+
+            <p class="accesory_text">
+              webサイトやバナー等を作ります。<br />
+              「内容がわかりやすい」<br />
+              「印象に残る」<br />
+              ようなデザインを意識しています。
+            </p>
+            <div class="zakkaSpace">
+              <img src="img/this-is-a-pen.webp" alt="" />
+              <img src="img/inkBottle.webp" alt="" />
+              <a href="" class="viewmore">詳しく見る&rArr;</a>
+            </div>
+          </div>
+          <div id="movie" class="works_container">
+            <div class="shelfBoard"></div>
+            <h3>Movie</h3>
+
+            <div class="works_img"><img src="" alt="" /></div>
+
+            <p class="accesory_text">映像つくる</p>
+            <div class="zakkaSpace">
+              <div class="zakkaMove">
+                <lottie-player
+                  class="animationSwich"
+                  src="img/sunadokei.json"
+                  loop
+                  data-action="lottie"
+                ></lottie-player>
+              </div>
+              <div class="zakkaMove">
+                <lottie-player
+                  class="animationSwich"
+                  src="img/rashinban.json"
+                  loop
+                  data-action="lottie"
+                ></lottie-player>
+              </div>
+
+              <a href="" class="viewmore">詳しく見る&rArr;</a>
+            </div>
+          </div>
+          <div id="other" class="works_container">
+            <div class="shelfBoard"></div>
+            <h3>Other</h3>
+
+            <div class="works_img"><img src="" alt="" /></div>
+
+            <p class="accesory_text">
+              夢遊堂ならではの世界観で<br />造形物や雑貨を作っていきます。
+            </p>
+            <div class="zakkaSpace">
+              <img src="img/karasuokimno.webp" alt="" />
+              <a href="" class="viewmore">詳しく見る&rArr;</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="shelfBoard"></div>
+      </section>
+
+      <section id="contact">
+        <div class="creatorContainer">
+          <h2>creator</h2>
+          <div class="creatorBox">
+            <div class="cItem"></div>
+
+            <div class="profile">
+              <h3>ユガロ</h3>
+              <div class="profileImg"><img src="" alt="" /></div>
+              <p class="profileinfo">
+                夢遊堂のメインのクリエーターです。
+                <br />というか今は一人なのでメインも何もないですがいずれはチームでの活動を予定してます。
+              </p>
+            </div>
+            <div class="cItem"></div>
+
+            <ul class="creatorSNS">
+              <h4>個人SNS</h4>
+              <li>
+                <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+            <div class="cItem"></div>
+          </div>
+        </div>
+        <div class="contactContainer">
+          <h2>contact</h2>
+          <div class="contactContents">
+            <div class="cItem"></div>
+            <div class="contactBox">
+              <p class="contactInfo">
+                活動に対するお問い合わせや <br />近況はこちらから
+              </p>
+              <a href="mailform/mailform.php" class="inquiry"
+                >メールフォームへ</a
+              >
+            </div>
+
+            <div class="cItem"></div>
+
+            <ul class="muyudoSNS">
+              <h3>夢遊堂SNS</h3>
+              <li>
+                <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+            <div class="cItem"></div>
+          </div>
+        </div>
+        <div class="contactTable">
+          <div class="table">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p><small>&copy;夢遊堂</small></p>
+    </footer>
+    <script src="js/main.js?0711"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+.first_view {
+  .herotext {
+    transition: 0.5s all 0.5s;
+  }
+  .door {
+    transition: 0.7s all;
+    transform-origin: left center;
+    transform: perspective(500px);
+
+    .doorknob {
+      opacity: 0;
+      transition: 0.5s all 0.5s;
+    }
+  }
+}
+
+.first_view.scOn {
+  .herotext {
+    filter: blur(25px) invert(100%) hue-rotate(100deg);
+    opacity: 0;
+    transition: 0.5s all;
+  }
+
+  .door {
+    transform: perspective(500px) rotateY(-120deg);
+    transition: 0.7s all 0.5s;
+    opacity: 0;
+    pointer-events: none;
+
+    .doorknob {
+      opacity: 1;
+      transition: 0.5s all;
+    }
+  }
+}
+
+.bg_1 {
+  transition: 1s all 1s;
+}
+
+.bg_1.scOn {
+  transform: translateY(-50%);
+  filter: blur(50px);
+  opacity: 0;
+
+  .feather {
+    animation-play-state: paused;
+  }
+}
+
+#about.scOn {
+  .rantan {
+    .light {
+      animation: lightOn 3s 1.5s linear forwards;
+    }
+  }
+}
+
+@keyframes lightOn {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  16% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 1;
+  }
+  31% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}

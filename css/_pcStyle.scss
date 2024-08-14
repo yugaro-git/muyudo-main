@@ -1,0 +1,310 @@
+// タイトル分のサイズ調整
+@media screen and (min-width: 800px) {
+  .first_view {
+    .hero_box {
+      width: 204px;
+      height: 360px;
+      .door {
+        .doorflame {
+          width: calc(100% - 24px);
+          height: calc(100% - 24px);
+        }
+        .doorknob {
+          right: 6px;
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+    h1.herotext {
+      font-size: calc(16px * 5.4);
+    }
+  }
+}
+
+// PC表示用のメディアクエリ
+@media screen and (min-width: 1030px) {
+  html {
+    font-size: 1.2vw;
+  }
+  .pcOnly {
+    display: block;
+  }
+  .spOnly {
+    display: none;
+  }
+
+  .nyoro_1 {
+    top: 0;
+    width: 40%;
+  }
+
+  .nyoro_2 {
+    top: 50%;
+
+    width: 40%;
+  }
+
+  //   about
+  #about {
+    height: 80vw;
+    h2 {
+      font-size: 9vw;
+      top: 2vw;
+      left: 10vw;
+      span {
+        transform: translate(0, 6.5vw);
+        display: block;
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    .rantan {
+      width: 16vw;
+      height: 16vw;
+    }
+
+    .about_catch {
+      font-size: 3vw;
+      top: 7vw;
+      right: 22%;
+    }
+
+    .about_text {
+      top: 25vw;
+      right: 22%;
+      width: 35vw;
+      height: 15vw;
+
+      &::before {
+        top: -3vw;
+        right: -3vw;
+        width: 8vw;
+        height: 8vw;
+      }
+      &::after {
+        bottom: -3vw;
+        left: -3vw;
+        width: 8vw;
+        height: 8vw;
+      }
+    }
+  }
+
+  //   works
+  .workSpace {
+    height: 80vw;
+    width: 85%;
+    margin: 0 auto;
+    h2 {
+      writing-mode: horizontal-tb;
+      font-size: 12vw;
+      left: 5vw;
+      top: 1vw;
+    }
+    .shelfBoard {
+      &:nth-of-type(2) {
+        top: 27vw;
+        right: 0;
+      }
+      &:nth-of-type(3) {
+        top: 46vw;
+        left: 0;
+      }
+    }
+    .shelfPillar {
+      top: calc(27vw + 8px);
+      height: calc(19vw - 8px);
+      width: 2.5%;
+      left: 49%;
+    }
+
+    .tenkyuBody {
+      width: 18%;
+      position: relative;
+      top: 5.8vw;
+      left: 65%;
+    }
+    .tennkyuBox {
+      width: 25%;
+      top: 5.6vw;
+      left: 61.9%;
+    }
+    .nekoObje {
+      width: 18%;
+      top: 23.6vw;
+    }
+
+    .works_nav {
+      top: 30vw;
+      left: 70%;
+      h3 {
+        font-size: 1.8vw;
+        padding: 0.5vw 2vw;
+      }
+      ul {
+        li {
+          height: 3.8vw;
+          font-size: 1.2vw;
+        }
+      }
+    }
+  }
+
+  #works {
+    .shelfContainer {
+      grid-template-columns: 1fr 1fr;
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .works_container {
+      h3 {
+        font-size: 2vw;
+        margin: 2vw auto;
+        padding: 0.2vw 2.5vw;
+      }
+      &::before,
+      &::after {
+        width: 1.5vw;
+      }
+
+      .works_img {
+        width: 52%;
+        height: 14vw;
+      }
+
+      .accesory_text {
+        height: 10vw;
+        padding: 1.5vw 25%;
+      }
+
+      .zakkaSpace {
+        height: 9vw;
+        .viewmore {
+          right: 8vw;
+        }
+      }
+    }
+
+    #accesory {
+      h3 {
+        transform: translateX(3.4vw);
+      }
+      .works_img {
+        transform: translateX(3.4vw);
+      }
+      .accesory_text {
+        transform: translateX(3.4vw);
+      }
+      .zakkaSpace {
+        transform: translateX(3.4vw);
+        img {
+          &:nth-child(1) {
+            width: 6vw;
+            left: 10vw;
+          }
+          &:nth-child(2) {
+            width: 3.5vw;
+            left: 18vw;
+          }
+        }
+      }
+      &::after {
+        display: none;
+      }
+    }
+
+    #web {
+      h3 {
+        transform: translateX(-3.5vw);
+      }
+      .works_img {
+        transform: translateX(-3.5vw);
+      }
+      .accesory_text {
+        transform: translateX(-3.5vw);
+      }
+      .zakkaSpace {
+        transform: translateX(-3.5vw);
+        img {
+          &:nth-child(1) {
+            width: 7vw;
+            left: 9vw;
+          }
+          &:nth-child(2) {
+            width: 4.5vw;
+            left: 17vw;
+          }
+        }
+      }
+      &::before {
+        left: -0.7vw;
+      }
+    }
+
+    #movie {
+      h3 {
+        transform: translateX(3.4vw);
+      }
+      .works_img {
+        transform: translateX(3.4vw);
+      }
+      .accesory_text {
+        transform: translateX(3.4vw);
+      }
+      .zakkaSpace {
+        transform: translateX(3.4vw);
+        .zakkaMove {
+          position: absolute;
+
+          &:nth-child(1) {
+            width: 18vw;
+            left: 3vw;
+            bottom: -0.9vw;
+          }
+
+          &:nth-child(2) {
+            width: 18vw;
+            left: 11vw;
+            bottom: -1.8vw;
+          }
+        }
+      }
+
+      &::after {
+        display: none;
+      }
+    }
+
+    #other {
+      h3 {
+        transform: translateX(-3.5vw);
+      }
+      .works_img {
+        transform: translateX(-3.5vw);
+      }
+      .accesory_text {
+        transform: translateX(-3.5vw);
+      }
+      .zakkaSpace {
+        transform: translateX(-3.5vw);
+        img {
+          &:nth-child(1) {
+            width: 15vw;
+            left: 9vw;
+          }
+        }
+      }
+      &::before {
+        left: -0.7vw;
+      }
+    }
+    .shelfBoard:nth-last-child(1) {
+      width: 85%;
+      margin: 0 auto;
+    }
+  }
+}
