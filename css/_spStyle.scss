@@ -665,6 +665,12 @@ section {
               right: 2px;
             }
           }
+          .catsAnimation {
+            position: absolute;
+            top: calc(-3vw - 1px);
+            left: 14%;
+            width: 50%;
+          }
         }
       }
     }
@@ -719,7 +725,7 @@ section {
             &:nth-child(2) {
               width: 11%;
               bottom: 1px;
-              left: 15%;
+              left: 16.5%;
             }
             &:nth-child(3) {
               width: 26.5%;
