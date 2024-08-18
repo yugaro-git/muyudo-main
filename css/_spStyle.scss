@@ -735,12 +735,28 @@ section {
           }
         }
 
-        &:nth-child(2) {
+        &:nth-child(3) {
           img {
+            position: absolute;
             &:nth-child(1) {
-              width: 9vw;
+              width: 9.5vw;
               bottom: 1px;
               left: 8vw;
+            }
+            &:nth-child(2) {
+              width: 20vw;
+              bottom: 1px;
+              left: 20vw;
+            }
+          }
+        }
+        &:nth-child(5) {
+          img {
+            position: absolute;
+            &:nth-child(1) {
+              width: 25%;
+              bottom: 1px;
+              left: 10%;
             }
           }
         }

@@ -893,10 +893,26 @@ section {
   bottom: 1px;
   right: 2px;
 }
-#contact .contactContainer .contactContents .cItem:nth-child(2) img:nth-child(1) {
-  width: 9vw;
+#contact .contactContainer .contactContents .cItem:nth-child(3) img {
+  position: absolute;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(1) {
+  width: 9.5vw;
   bottom: 1px;
   left: 8vw;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(2) {
+  width: 20vw;
+  bottom: 1px;
+  left: 20vw;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img {
+  position: absolute;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(1) {
+  width: 25%;
+  bottom: 1px;
+  left: 10%;
 }
 #contact .contactContainer .contactBox {
   background-color: #000033;
