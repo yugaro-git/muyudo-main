@@ -307,4 +307,75 @@
       margin: 0 auto;
     }
   }
+
+  // contact
+
+  #contact {
+    .cItem {
+      height: 9.7vw;
+    }
+    .creatorContainer {
+      width: 62vw;
+      margin: 8vw auto 0;
+      .creatorBox {
+        padding: 1.5vw 3.5vw;
+
+        .profile {
+          margin: 0.5vw 0;
+          padding: 1.5vw 2vw;
+          font-size: 1.2vw;
+          .profileImg {
+            width: 24vw;
+            height: 16vw;
+            margin: 2vw auto;
+            border: #faebd7 2px solid;
+          }
+        }
+      }
+
+      .creatorSNS {
+        margin: 0.5vw 0;
+        padding: 2vw 0 1px;
+        display: none;
+
+        h4 {
+          font-size: 1vw;
+
+          padding: 0.2vw 2vw;
+        }
+      }
+
+      .cItem {
+        &:nth-last-child(1) {
+          margin-top: 1vw;
+        }
+      }
+    }
+
+    .contactContainer {
+      width: 62vw;
+      margin: 0 auto 25vw;
+      .contactContents {
+        padding: 1.5vw 3.5vw;
+
+        .muyudoSNS {
+          display: none;
+        }
+
+        .cItem {
+          &:nth-last-child(1) {
+            margin-top: 1vw;
+          }
+        }
+      }
+    }
+
+    h2 {
+      font-size: 3.4vw;
+      height: 3.2vw;
+    }
+    li {
+      width: 3vw;
+    }
+  }
 }

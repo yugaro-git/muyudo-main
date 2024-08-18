@@ -942,10 +942,10 @@ section {
 }
 #contact h2 {
   font-family: isemin, sans-serif;
-  font-size: 12vw;
+  font-size: 11vw;
   color: #000033;
   text-align: center;
-  height: 13vw;
+  height: 11vw;
 }
 #contact li {
   list-style: none;
@@ -1280,6 +1280,59 @@ footer {
   #works .shelfBoard:nth-last-child(1) {
     width: 85%;
     margin: 0 auto;
+  }
+  #contact .cItem {
+    height: 9.7vw;
+  }
+  #contact .creatorContainer {
+    width: 62vw;
+    margin: 8vw auto 0;
+  }
+  #contact .creatorContainer .creatorBox {
+    padding: 1.5vw 3.5vw;
+  }
+  #contact .creatorContainer .creatorBox .profile {
+    margin: 0.5vw 0;
+    padding: 1.5vw 2vw;
+    font-size: 1.2vw;
+  }
+  #contact .creatorContainer .creatorBox .profile .profileImg {
+    width: 24vw;
+    height: 16vw;
+    margin: 2vw auto;
+    border: #faebd7 2px solid;
+  }
+  #contact .creatorContainer .creatorSNS {
+    margin: 0.5vw 0;
+    padding: 2vw 0 1px;
+    display: none;
+  }
+  #contact .creatorContainer .creatorSNS h4 {
+    font-size: 1vw;
+    padding: 0.2vw 2vw;
+  }
+  #contact .creatorContainer .cItem:nth-last-child(1) {
+    margin-top: 1vw;
+  }
+  #contact .contactContainer {
+    width: 62vw;
+    margin: 0 auto 25vw;
+  }
+  #contact .contactContainer .contactContents {
+    padding: 1.5vw 3.5vw;
+  }
+  #contact .contactContainer .contactContents .muyudoSNS {
+    display: none;
+  }
+  #contact .contactContainer .contactContents .cItem:nth-last-child(1) {
+    margin-top: 1vw;
+  }
+  #contact h2 {
+    font-size: 3.4vw;
+    height: 3.2vw;
+  }
+  #contact li {
+    width: 3vw;
   }
 }
 /*# sourceMappingURL=style.css.map */
