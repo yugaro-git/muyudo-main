@@ -333,10 +333,9 @@
         }
       }
 
-      .creatorSNS {
+      .creatorSNS ul {
         margin: 0.5vw 0;
         padding: 2vw 0 1px;
-        display: none;
 
         h4 {
           font-size: 1vw;
@@ -357,10 +356,6 @@
       margin: 0 auto 25vw;
       .contactContents {
         padding: 1.5vw 3.5vw;
-
-        .muyudoSNS {
-          display: none;
-        }
 
         .cItem {
           &:nth-last-child(1) {

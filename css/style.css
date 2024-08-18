@@ -97,7 +97,7 @@ header nav ul li:nth-child(1), header nav ul li:nth-child(6), header nav ul li:n
   margin: 10px;
   border: none;
   transition: 0.8s;
-  background: radial-gradient(#66ccff 10%, transparent 100%);
+  background: radial-gradient(#66ccff 10%, rgba(0, 0, 51, 0.7333333333) 100%);
 }
 .hamburger span {
   width: 68%;
@@ -850,7 +850,7 @@ section {
   margin: 5vw auto;
   border: #faebd7 2px solid;
 }
-#contact .creatorContainer .creatorSNS {
+#contact .creatorContainer .creatorSNS ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -858,7 +858,7 @@ section {
   margin: 2vw 0;
   padding: 4vw 0 2px;
 }
-#contact .creatorContainer .creatorSNS h4 {
+#contact .creatorContainer .creatorSNS ul h4 {
   font-size: 5vw;
   border: 3px double #66ccff;
   padding: 0.5vw 3vw;
@@ -932,7 +932,7 @@ section {
   color: #66ccff;
   text-align: center;
 }
-#contact .contactContainer .muyudoSNS {
+#contact .contactContainer .muyudoSNS ul {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -1302,12 +1302,11 @@ footer {
     margin: 2vw auto;
     border: #faebd7 2px solid;
   }
-  #contact .creatorContainer .creatorSNS {
+  #contact .creatorContainer .creatorSNS ul {
     margin: 0.5vw 0;
     padding: 2vw 0 1px;
-    display: none;
   }
-  #contact .creatorContainer .creatorSNS h4 {
+  #contact .creatorContainer .creatorSNS ul h4 {
     font-size: 1vw;
     padding: 0.2vw 2vw;
   }
@@ -1320,9 +1319,6 @@ footer {
   }
   #contact .contactContainer .contactContents {
     padding: 1.5vw 3.5vw;
-  }
-  #contact .contactContainer .contactContents .muyudoSNS {
-    display: none;
   }
   #contact .contactContainer .contactContents .cItem:nth-last-child(1) {
     margin-top: 1vw;
