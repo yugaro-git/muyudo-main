@@ -175,6 +175,11 @@ nav.active li {
     width: 1.5vw;
     height: 0.6vw;
   }
+  .scrollSwich {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+  }
 }
 .first_view .herotext {
   transition: 0.5s all 0.5s;
