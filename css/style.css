@@ -177,8 +177,6 @@ nav.active li {
   }
   .scrollSwich {
     overflow: auto;
-    scroll-snap-type: y mandatory;
-    scroll-snap-stop: always;
   }
 }
 .first_view .herotext {
