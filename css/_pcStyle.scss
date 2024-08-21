@@ -358,9 +358,18 @@
         padding: 1.5vw 3.5vw;
 
         .cItem {
+          &:nth-child(1) {
+            .crowAnimation {
+              top: calc(-0.7vw - 1px);
+            }
+          }
           &:nth-last-child(1) {
             margin-top: 1vw;
           }
+        }
+
+        .contactBox {
+          margin: 1vw 0;
         }
       }
     }

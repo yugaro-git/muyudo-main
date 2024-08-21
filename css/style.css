@@ -834,7 +834,7 @@ section {
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(3) .catsAnimation {
   position: absolute;
-  top: calc(-3vw - 1px);
+  top: calc(-3.1vw - 1px);
   left: 14%;
   width: 50%;
 }
@@ -892,6 +892,12 @@ section {
   width: 26.5%;
   bottom: 1px;
   right: 2px;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) .crowAnimation {
+  position: absolute;
+  top: calc(-0.2vw - 1px);
+  left: 26%;
+  width: 34%;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img {
   position: absolute;
@@ -1320,8 +1326,14 @@ footer {
   #contact .contactContainer .contactContents {
     padding: 1.5vw 3.5vw;
   }
+  #contact .contactContainer .contactContents .cItem:nth-child(1) .crowAnimation {
+    top: calc(-0.7vw - 1px);
+  }
   #contact .contactContainer .contactContents .cItem:nth-last-child(1) {
     margin-top: 1vw;
+  }
+  #contact .contactContainer .contactContents .contactBox {
+    margin: 1vw 0;
   }
   #contact h2 {
     font-size: 3.4vw;

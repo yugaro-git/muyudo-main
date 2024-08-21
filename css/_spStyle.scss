@@ -667,7 +667,7 @@ section {
           }
           .catsAnimation {
             position: absolute;
-            top: calc(-3vw - 1px);
+            top: calc(-3.1vw - 1px);
             left: 14%;
             width: 50%;
           }
@@ -732,6 +732,12 @@ section {
               bottom: 1px;
               right: 2px;
             }
+          }
+          .crowAnimation {
+            position: absolute;
+            top: calc(-0.2vw - 1px);
+            left: 26%;
+            width: 34%;
           }
         }
 
