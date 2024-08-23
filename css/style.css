@@ -844,14 +844,20 @@ section {
 #contact .creatorContainer .profile {
   background-color: #000033;
   margin: 2vw 0;
-  padding: 6vw 2vw;
+  padding: 6vw 4vw;
   font-size: 3.5vw;
+}
+#contact .creatorContainer .profile h3 {
+  font-size: 8vw;
 }
 #contact .creatorContainer .profile .profileImg {
   width: 60vw;
   height: 40vw;
   margin: 5vw auto;
   border: #faebd7 2px solid;
+}
+#contact .creatorContainer .profile .profileInfo {
+  text-align: center;
 }
 #contact .creatorContainer .creatorSNS ul {
   display: flex;
@@ -906,12 +912,12 @@ section {
   position: absolute;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(1) {
-  width: 9.5vw;
+  width: 11.5%;
   bottom: 1px;
   left: 8vw;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(2) {
-  width: 20vw;
+  width: 24%;
   bottom: 1px;
   left: 20vw;
 }
@@ -919,7 +925,7 @@ section {
   position: absolute;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(1) {
-  width: 25%;
+  width: 26%;
   bottom: 1px;
   left: 10%;
 }
@@ -1298,17 +1304,20 @@ footer {
     margin: 8vw auto 0;
   }
   #contact .creatorContainer .creatorBox {
-    padding: 1.5vw 3.5vw;
+    padding: 1.5vw 3.5vw 0;
   }
   #contact .creatorContainer .creatorBox .profile {
     margin: 0.5vw 0;
-    padding: 1.5vw 2vw;
+    padding: 1.5vw 3vw;
     font-size: 1.2vw;
+  }
+  #contact .creatorContainer .creatorBox .profile h3 {
+    font-size: 4vw;
   }
   #contact .creatorContainer .creatorBox .profile .profileImg {
     width: 24vw;
     height: 16vw;
-    margin: 2vw auto;
+    margin: 3.2vw auto;
     border: #faebd7 2px solid;
   }
   #contact .creatorContainer .creatorSNS ul {
@@ -1327,7 +1336,7 @@ footer {
     margin: 0 auto 25vw;
   }
   #contact .contactContainer .contactContents {
-    padding: 1.5vw 3.5vw;
+    padding: 1vw 3.5vw 1.5vw;
   }
   #contact .contactContainer .contactContents .cItem:nth-child(1) .crowAnimation {
     top: calc(-0.7vw - 1px);

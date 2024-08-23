@@ -318,16 +318,19 @@
       width: 62vw;
       margin: 8vw auto 0;
       .creatorBox {
-        padding: 1.5vw 3.5vw;
+        padding: 1.5vw 3.5vw 0;
 
         .profile {
           margin: 0.5vw 0;
-          padding: 1.5vw 2vw;
+          padding: 1.5vw 3vw;
           font-size: 1.2vw;
+          h3 {
+            font-size: 4vw;
+          }
           .profileImg {
             width: 24vw;
             height: 16vw;
-            margin: 2vw auto;
+            margin: 3.2vw auto;
             border: #faebd7 2px solid;
           }
         }
@@ -355,7 +358,7 @@
       width: 62vw;
       margin: 0 auto 25vw;
       .contactContents {
-        padding: 1.5vw 3.5vw;
+        padding: 1vw 3.5vw 1.5vw;
 
         .cItem {
           &:nth-child(1) {

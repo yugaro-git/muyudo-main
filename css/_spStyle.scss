@@ -677,13 +677,19 @@ section {
     .profile {
       background-color: $color2;
       margin: 2vw 0;
-      padding: 6vw 2vw;
+      padding: 6vw 4vw;
       font-size: 3.5vw;
+      h3 {
+        font-size: 8vw;
+      }
       .profileImg {
         width: 60vw;
         height: 40vw;
         margin: 5vw auto;
         border: #faebd7 2px solid;
+      }
+      .profileInfo {
+        text-align: center;
       }
     }
 
@@ -745,12 +751,12 @@ section {
           img {
             position: absolute;
             &:nth-child(1) {
-              width: 9.5vw;
+              width: 11.5%;
               bottom: 1px;
               left: 8vw;
             }
             &:nth-child(2) {
-              width: 20vw;
+              width: 24%;
               bottom: 1px;
               left: 20vw;
             }
@@ -760,7 +766,7 @@ section {
           img {
             position: absolute;
             &:nth-child(1) {
-              width: 25%;
+              width: 26%;
               bottom: 1px;
               left: 10%;
             }
