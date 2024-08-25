@@ -222,7 +222,17 @@ nav.active li {
           animation-play-state: paused;
 }
 
+#about.scOn h2 {
+  opacity: 1;
+  transform: translate(0, 0);
+  filter: blur(0);
+}
 #about.scOn .rantan .light {
+  -webkit-animation: lightOn 3s 1.5s linear forwards;
+          animation: lightOn 3s 1.5s linear forwards;
+}
+
+.cItem.scOn .light {
   -webkit-animation: lightOn 3s 1.5s linear forwards;
           animation: lightOn 3s 1.5s linear forwards;
 }
@@ -268,6 +278,12 @@ nav.active li {
     opacity: 1;
   }
 }
+.workSpace.scOn h2 {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
 html {
   font-size: 3.5vw;
 }
@@ -493,6 +509,10 @@ section {
   color: #66ccff;
   font-family: isemin, sans-serif;
   font-size: 13vw;
+  opacity: 0;
+  transform: translate(0, -15%);
+  transition: all 1.2s ease;
+  filter: blur(20px);
 }
 #about h2 span::after {
   content: "―";
@@ -581,6 +601,10 @@ section {
   font-style: normal;
   writing-mode: vertical-rl;
   color: #66ccff;
+  opacity: 0;
+  filter: blur(32px);
+  transform: scale(1.2);
+  transition: all 1.2s ease;
 }
 .workSpace .nekoObje {
   position: absolute;
@@ -802,6 +826,16 @@ section {
   width: 100%;
   height: 15vw;
 }
+#contact .cItem .light {
+  position: absolute;
+  bottom: 1.5vw;
+  width: 4.2%;
+  height: 35%;
+  background-color: #fff;
+  border-radius: 50%;
+  filter: blur(1.1vw);
+  opacity: 0;
+}
 #contact .creatorContainer {
   width: 88%;
   margin: 15vw auto;
@@ -839,6 +873,9 @@ section {
   width: 14%;
   bottom: 1px;
   left: 2px;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(3) .light {
+  right: 33.3%;
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(3) .catsAnimation {
   position: absolute;
@@ -906,6 +943,9 @@ section {
   width: 26.5%;
   bottom: 1px;
   right: 2px;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) .light {
+  left: 20%;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(1) .crowAnimation {
   position: absolute;

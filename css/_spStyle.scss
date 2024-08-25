@@ -260,6 +260,10 @@ section {
     color: $color1;
     font-family: isemin, sans-serif;
     font-size: 13vw;
+    opacity: 0;
+    transform: translate(0, -15%);
+    transition: all 1.2s ease;
+    filter: blur(20px);
     span {
       &::after {
         content: "―";
@@ -359,6 +363,10 @@ section {
     font-style: normal;
     writing-mode: vertical-rl;
     color: $color1;
+    opacity: 0;
+    filter: blur(32px);
+    transform: scale(1.2);
+    transition: all 1.2s ease;
   }
 
   .nekoObje {
@@ -627,6 +635,16 @@ section {
     background-color: $color2;
     width: 100%;
     height: 15vw;
+    .light {
+      position: absolute;
+      bottom: 1.5vw;
+      width: 4.2%;
+      height: 35%;
+      background-color: #fff;
+      border-radius: 50%;
+      filter: blur(1.1vw);
+      opacity: 0;
+    }
   }
 
   .creatorContainer {
@@ -669,6 +687,9 @@ section {
               bottom: 1px;
               left: 2px;
             }
+          }
+          .light {
+            right: 33.3%;
           }
           .catsAnimation {
             position: absolute;
@@ -743,6 +764,9 @@ section {
               bottom: 1px;
               right: 2px;
             }
+          }
+          .light {
+            left: 20%;
           }
           .crowAnimation {
             position: absolute;
