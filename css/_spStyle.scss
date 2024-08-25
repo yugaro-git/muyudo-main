@@ -664,6 +664,11 @@ section {
               bottom: 1px;
               right: 2px;
             }
+            &:nth-child(3) {
+              width: 14%;
+              bottom: 1px;
+              left: 2px;
+            }
           }
           .catsAnimation {
             position: absolute;
