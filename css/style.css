@@ -539,51 +539,24 @@ section {
 }
 #about .about_catch {
   position: absolute;
-  top: 40vw;
-  right: 8%;
-  font-size: 6.5vw;
+  top: 38vw;
+  left: 31.5%;
+  font-size: 6.8vw;
   color: #faebd7;
   font-family: "New Tegomin", serif;
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
 }
-#about .about_catch span:nth-child(2) {
-  padding-left: 4vw;
-}
-#about .about_catch span:nth-child(4) {
-  padding-left: 20vw;
-}
 #about .about_text {
+  font-size: 3.8vw;
   position: absolute;
-  top: 85vw;
-  right: 10%;
-  padding: 5vw;
+  top: 75.5vw;
+  left: 31.5%;
   color: #66ccff;
-  width: 50vw;
-  height: 60vw;
-  border-radius: 10px;
-  border: 1px solid #66ccff;
+  width: 65vw;
   font-family: "New Tegomin", serif;
 }
-#about .about_text::before {
-  content: "";
-  background-image: url(../img/frame/flame1.png);
-  transform: rotate(180deg);
-  position: absolute;
-  top: -6vw;
-  right: -6vw;
-  width: 15vw;
-  height: 15vw;
-  background-size: cover;
-}
-#about .about_text::after {
-  content: "";
-  background-image: url(../img/frame/flame1.png);
-  position: absolute;
-  bottom: -6vw;
-  left: -6vw;
-  width: 15vw;
-  height: 15vw;
-  background-size: cover;
+#about .about_text p {
+  margin-bottom: 2vw;
 }
 
 .workSpace {
@@ -940,7 +913,7 @@ section {
   left: 16.5%;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(3) {
-  width: 26.5%;
+  width: 18%;
   bottom: 1px;
   right: 2px;
 }
@@ -1144,12 +1117,13 @@ footer {
   }
   #about .about_catch {
     font-size: 3vw;
-    top: 7vw;
-    right: 22%;
+    top: 6vw;
+    left: 48%;
   }
   #about .about_text {
-    top: 25vw;
-    right: 22%;
+    font-size: 1.2vw;
+    top: 23vw;
+    left: 48%;
     width: 35vw;
     height: 15vw;
   }
