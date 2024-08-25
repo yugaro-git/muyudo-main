@@ -44,7 +44,7 @@
     />
     <script src="lottie/lottie-player.js"></script>
     <!-- style -->
-    <link rel="stylesheet" href="css/style.min.css?0728" />
+    <link rel="stylesheet" href="css/style.min.css?0821" />
   </head>
   <body class="hamSwich">
     <header>
@@ -118,7 +118,7 @@
       </section>
 
       <section id="works">
-        <div class="workSpace">
+        <div class="workSpace animationSwich">
           <h2>works</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -266,38 +266,84 @@
 
       <section id="contact">
         <div class="creatorContainer">
-          <h2>creator</h2>
+          <h2 class="spOnly">creator</h2>
           <div class="creatorBox">
-            <div class="cItem"></div>
+            <div class="cItem">
+              <img src="img/ueki1.webp" alt="" />
+            </div>
 
             <div class="profile">
               <h3>ユガロ</h3>
               <div class="profileImg"><img src="" alt="" /></div>
-              <p class="profileinfo">
+              <p class="profileInfo">
                 夢遊堂のメインのクリエーターです。
                 <br />というか今は一人なのでメインも何もないですがいずれはチームでの活動を予定してます。
               </p>
-            </div>
-            <div class="cItem"></div>
 
-            <ul class="creatorSNS">
-              <h4>個人SNS</h4>
-              <li>
-                <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
-                /></a>
-              </li>
-            </ul>
+              <div class="creatorSNS pcOnly">
+                <ul>
+                  <h4>個人SNS</h4>
+                  <li>
+                    <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cItem animationSwich">
+              <img src="img/yumerantan.webp" alt="" />
+              <img src="img/book1.webp" alt="" />
+              <img src="img/book3.webp" alt="" />
+              <div class="light"></div>
+              <div class="catsAnimation">
+                <lottie-player
+                  class="animationSwich"
+                  src="img/nekoshippo.json"
+                  loop
+                  mode="bounce"
+                  data-action="lottie"
+                ></lottie-player>
+              </div>
+            </div>
+
+            <div class="creatorSNS spOnly">
+              <ul>
+                <h4>個人SNS</h4>
+                <li>
+                  <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
             <div class="cItem"></div>
           </div>
         </div>
         <div class="contactContainer">
-          <h2>contact</h2>
+          <h2 class="spOnly">contact</h2>
           <div class="contactContents">
-            <div class="cItem"></div>
+            <div class="cItem animationSwich">
+              <img src="img/ueki2.webp" alt="" />
+              <img src="img/yumerantan.webp" alt="" />
+              <img src="img/book1.webp" alt="" />
+              <div class="light"></div>
+              <div class="crowAnimation">
+                <lottie-player
+                  class="animationSwich"
+                  src="img/karasu.json"
+                  loop
+                  mode="bounce"
+                  data-action="lottie"
+                ></lottie-player>
+              </div>
+            </div>
             <div class="contactBox">
               <p class="contactInfo">
                 活動に対するお問い合わせや <br />近況はこちらから
@@ -305,22 +351,42 @@
               <a href="mailform/mailform.php" class="inquiry"
                 >メールフォームへ</a
               >
+              <div class="muyudoSNS pcOnly">
+                <ul>
+                  <h3>夢遊堂SNS</h3>
+                  <li>
+                    <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+                  </li>
+                  <li>
+                    <a href=""
+                      ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
             </div>
 
-            <div class="cItem"></div>
+            <div class="cItem">
+              <img src="img/neko.webp" alt="" />
+              <img src="img/karasuokimno.webp" alt="" /><img src="" alt="" />
+            </div>
 
-            <ul class="muyudoSNS">
-              <h3>夢遊堂SNS</h3>
-              <li>
-                <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
-              </li>
-              <li>
-                <a href=""
-                  ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
-                /></a>
-              </li>
-            </ul>
-            <div class="cItem"></div>
+            <div class="muyudoSNS spOnly">
+              <ul>
+                <h3>夢遊堂SNS</h3>
+                <li>
+                  <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <div class="cItem">
+              <img src="img/hako1.webp" alt="" />
+            </div>
           </div>
         </div>
         <div class="contactTable">
