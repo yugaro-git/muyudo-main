@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // オプション
   const options = {
     root: null,
-    rootMargin: "20px",
+    rootMargin: "40px 5px  40px 5px",
     threshold: 0.9,
   };
 
