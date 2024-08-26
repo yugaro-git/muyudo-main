@@ -1148,7 +1148,7 @@ footer {
     writing-mode: horizontal-tb;
     font-size: 12vw;
     left: 5vw;
-    top: 1vw;
+    top: 1.6vw;
   }
   .workSpace .shelfBoard:nth-of-type(2) {
     top: 27vw;
