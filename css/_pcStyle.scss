@@ -1,3 +1,6 @@
+$color1: #66ccff;
+$color2: #000033;
+
 // タイトル分のサイズ調整
 @media screen and (min-width: 800px) {
   .first_view {
@@ -50,7 +53,7 @@
     height: 80vw;
     h2 {
       font-size: 9vw;
-      top: 2vw;
+      top: 1.5vw;
       left: 10vw;
       span {
         transform: translate(0, 6.5vw);
@@ -68,29 +71,16 @@
 
     .about_catch {
       font-size: 3vw;
-      top: 6vw;
+      top: 5.5vw;
       left: 48%;
     }
 
     .about_text {
       font-size: 1.2vw;
-      top: 23vw;
+      top: 22.5vw;
       left: 48%;
       width: 35vw;
       height: 15vw;
-
-      &::before {
-        top: -3vw;
-        right: -3vw;
-        width: 8vw;
-        height: 8vw;
-      }
-      &::after {
-        bottom: -3vw;
-        left: -3vw;
-        width: 8vw;
-        height: 8vw;
-      }
     }
   }
 
@@ -103,7 +93,7 @@
       writing-mode: horizontal-tb;
       font-size: 12vw;
       left: 5vw;
-      top: 1.6vw;
+      top: 1.8vw;
     }
     .shelfBoard {
       &:nth-of-type(2) {
@@ -321,6 +311,16 @@
       .creatorBox {
         padding: 1.5vw 3.5vw 0;
 
+        .cItem {
+          &:nth-child(3) {
+            img {
+              &:nth-child(3) {
+                width: 13%;
+              }
+            }
+          }
+        }
+
         .profile {
           margin: 0.5vw 0;
           padding: 1.5vw 3vw;
@@ -328,10 +328,13 @@
           h3 {
             font-size: 4vw;
           }
+          h4 {
+            font-size: 2.4vw;
+          }
           .profileImg {
             width: 24vw;
             height: 16vw;
-            margin: 3.2vw auto;
+            margin: 1.8vw auto 3vw;
             border: #faebd7 2px solid;
           }
         }

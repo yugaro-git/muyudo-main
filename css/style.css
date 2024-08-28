@@ -985,74 +985,6 @@ section {
   width: 10vw;
 }
 
-.table {
-  position: relative;
-  width: 70vw;
-  height: 40vw;
-}
-.table div {
-  position: absolute;
-  background-color: #66ccff;
-}
-.table div:nth-child(1) {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 6%;
-}
-.table div:nth-child(2) {
-  top: 6%;
-  left: 6%;
-  width: 5%;
-  height: 94%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(3) {
-  top: 6%;
-  right: 6%;
-  width: 5%;
-  height: 94%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(4) {
-  top: 7%;
-  left: 12%;
-  width: 37.5%;
-  height: 22%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(5) {
-  top: 7%;
-  right: 12%;
-  width: 37.5%;
-  height: 22%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(6) {
-  top: 30%;
-  left: 11.5%;
-  width: 77%;
-  height: 2%;
-}
-.table div:nth-child(7) {
-  top: 16%;
-  left: 28%;
-  width: 3vw;
-  height: 3vw;
-  border: 1px solid #000033;
-  border-radius: 50%;
-  box-shadow: 0.2vw 0.2vw 0.8vw #000033;
-}
-.table div:nth-child(8) {
-  top: 16%;
-  right: 28%;
-  width: 3vw;
-  height: 3vw;
-  border: 1px solid #000033;
-  border-radius: 50%;
-  box-shadow: 0.2vw 0.2vw 0.8vw #000033;
-}
-
 footer {
   background-color: #66ccff;
   text-align: center;
@@ -1101,7 +1033,7 @@ footer {
   }
   #about h2 {
     font-size: 9vw;
-    top: 2vw;
+    top: 1.5vw;
     left: 10vw;
   }
   #about h2 span {
@@ -1117,27 +1049,15 @@ footer {
   }
   #about .about_catch {
     font-size: 3vw;
-    top: 6vw;
+    top: 5.5vw;
     left: 48%;
   }
   #about .about_text {
     font-size: 1.2vw;
-    top: 23vw;
+    top: 22.5vw;
     left: 48%;
     width: 35vw;
     height: 15vw;
-  }
-  #about .about_text::before {
-    top: -3vw;
-    right: -3vw;
-    width: 8vw;
-    height: 8vw;
-  }
-  #about .about_text::after {
-    bottom: -3vw;
-    left: -3vw;
-    width: 8vw;
-    height: 8vw;
   }
   .workSpace {
     height: 80vw;
@@ -1148,7 +1068,7 @@ footer {
     writing-mode: horizontal-tb;
     font-size: 12vw;
     left: 5vw;
-    top: 1.6vw;
+    top: 1.8vw;
   }
   .workSpace .shelfBoard:nth-of-type(2) {
     top: 27vw;
@@ -1325,6 +1245,9 @@ footer {
   #contact .creatorContainer .creatorBox {
     padding: 1.5vw 3.5vw 0;
   }
+  #contact .creatorContainer .creatorBox .cItem:nth-child(3) img:nth-child(3) {
+    width: 13%;
+  }
   #contact .creatorContainer .creatorBox .profile {
     margin: 0.5vw 0;
     padding: 1.5vw 3vw;
@@ -1333,10 +1256,13 @@ footer {
   #contact .creatorContainer .creatorBox .profile h3 {
     font-size: 4vw;
   }
+  #contact .creatorContainer .creatorBox .profile h4 {
+    font-size: 2.4vw;
+  }
   #contact .creatorContainer .creatorBox .profile .profileImg {
     width: 24vw;
     height: 16vw;
-    margin: 3.2vw auto;
+    margin: 1.8vw auto 3vw;
     border: #faebd7 2px solid;
   }
   #contact .creatorContainer .creatorSNS ul {
