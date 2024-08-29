@@ -1249,21 +1249,26 @@ footer {
     width: 13%;
   }
   #contact .creatorContainer .creatorBox .profile {
+    position: relative;
     margin: 0.5vw 0;
-    padding: 1.5vw 3vw;
+    padding: 4.8vw 3vw 1.5vw;
     font-size: 1.2vw;
   }
   #contact .creatorContainer .creatorBox .profile h3 {
-    font-size: 4vw;
+    font-size: 2.8vw;
+    margin-left: 5vw;
   }
   #contact .creatorContainer .creatorBox .profile h4 {
-    font-size: 2.4vw;
+    font-size: 2vw;
   }
   #contact .creatorContainer .creatorBox .profile .profileImg {
     width: 24vw;
     height: 16vw;
     margin: 1.8vw auto 3vw;
     border: #faebd7 2px solid;
+  }
+  #contact .creatorContainer .creatorBox .profile .profileInfo {
+    font-size: 1.2vw;
   }
   #contact .creatorContainer .creatorSNS ul {
     margin: 0.5vw 0;
@@ -1291,6 +1296,15 @@ footer {
   }
   #contact .contactContainer .contactContents .contactBox {
     margin: 1vw 0;
+    position: relative;
+  }
+  #contact .contactContainer .contactContents .contactBox .contactInfo {
+    font-size: 2.1vw;
+  }
+  #contact .contactContainer .contactContents .inquiry {
+    font-size: 3vw;
+    padding: 1vw;
+    width: 30vw;
   }
   #contact h2 {
     font-size: 3.4vw;
@@ -1298,6 +1312,16 @@ footer {
   }
   #contact li {
     width: 3vw;
+  }
+  #contact h2 {
+    color: #66ccff;
+    font-size: 8vw;
+    height: initial;
+    position: absolute;
+    top: -3vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.2;
   }
 }
 /*# sourceMappingURL=style.css.map */
