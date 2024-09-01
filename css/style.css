@@ -864,6 +864,7 @@ section {
 }
 #contact .creatorContainer .profile h3 {
   font-size: 8vw;
+  font-family: isemin, sans-serif;
 }
 #contact .creatorContainer .profile .profileImg {
   width: 60vw;
@@ -873,6 +874,7 @@ section {
 }
 #contact .creatorContainer .profile .profileInfo {
   text-align: center;
+  font-family: new-tegomin, sans-serif;
 }
 #contact .creatorContainer .creatorSNS ul {
   display: flex;
@@ -954,6 +956,7 @@ section {
 }
 #contact .contactContainer .contactBox .contactInfo {
   margin-bottom: 3vw;
+  font-family: new-tegomin, sans-serif;
 }
 #contact .contactContainer .inquiry {
   display: block;
@@ -964,6 +967,7 @@ section {
   text-decoration: none;
   color: #66ccff;
   text-align: center;
+  font-family: isemin, sans-serif;
 }
 #contact .contactContainer .muyudoSNS ul {
   display: flex;
@@ -1301,14 +1305,13 @@ footer {
   #contact .contactContainer .contactContents .contactBox .contactInfo {
     font-size: 2.1vw;
   }
+  #contact .contactContainer .contactContents .contactBox .muyudoSNS h3 {
+    font-size: 2vw;
+  }
   #contact .contactContainer .contactContents .inquiry {
     font-size: 3vw;
     padding: 1vw;
     width: 30vw;
-  }
-  #contact h2 {
-    font-size: 3.4vw;
-    height: 3.2vw;
   }
   #contact li {
     width: 3vw;
