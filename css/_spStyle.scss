@@ -472,6 +472,7 @@ section {
         border: $color1 double 4px;
         color: $color1;
         font-family: new-tegomin, sans-serif;
+        cursor: pointer;
 
         &::before,
         &::after {

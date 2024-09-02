@@ -203,7 +203,9 @@
             <div class="zakkaSpace">
               <img src="img/pendanto.webp" alt="" />
               <img src="img/yubiwa.webp" alt="" />
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_accesorry">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
           <div id="web" class="works_container">
@@ -220,7 +222,9 @@
             <div class="zakkaSpace">
               <img src="img/this-is-a-pen.webp" alt="" />
               <img src="img/inkBottle.webp" alt="" />
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_web">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
           <div id="movie" class="works_container">
@@ -250,7 +254,9 @@
                 ></lottie-player>
               </div>
 
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_movie">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
           <div id="other" class="works_container">
@@ -264,7 +270,9 @@
             </p>
             <div class="zakkaSpace">
               <img src="img/karasuokimno.webp" alt="" />
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_other">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
         </div>
@@ -403,10 +411,37 @@
           </div>
         </div>
       </section>
+
+      <!-- 以下は詳細ページ作成までの仮モーダル -->
+      <div class="modal" id="modal_accesorry">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          accesory
+        </div>
+      </div>
+      <div class="modal" id="modal_web">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          web
+        </div>
+      </div>
+      <div class="modal" id="modal_movie">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          movie
+        </div>
+      </div>
+      <div class="modal" id="modal_other">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          other
+        </div>
+      </div>
     </main>
     <footer>
       <p><small>&copy;夢遊堂</small></p>
     </footer>
     <script src="js/main.js?0825"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
