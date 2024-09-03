@@ -1346,6 +1346,7 @@ footer {
   height: 80%;
   margin: 10vh auto 0;
   background-color: #66ccff;
+  color: #000033;
   padding: 5%;
   -webkit-animation: modalopen 0.7s ease 0s 1 normal forwards running;
           animation: modalopen 0.7s ease 0s 1 normal forwards running;
@@ -1354,13 +1355,38 @@ footer {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 2.2vw;
+  font-size: 24px;
   display: block;
-  padding: 0 0.5vw;
+  padding: 0 8px;
   border: #000033 solid 3px;
   background-color: #66ccff;
   color: #000033;
   cursor: pointer;
+}
+.modal .modalcontent .comingSoon {
+  font-size: 32px;
+  font-family: isemin, sans-serif;
+  margin-bottom: 0.5em;
+}
+.modal .modalcontent .modalInfo {
+  font-size: 13px;
+  font-weight: bolder;
+  font-family: new-tegomin, sans-serif;
+  margin-bottom: 1em;
+}
+.modal .modalcontent .temporaryContents {
+  border: #000033 solid 3.5px;
+  width: 100%;
+  height: 68%;
+  overflow-y: scroll;
+  padding: 16px;
+}
+.modal .modalcontent .temporaryContents .modaltitle {
+  font-size: 24px;
+}
+.modal .modalcontent .temporaryContents ul {
+  padding-left: 16px;
+  font-size: 13px;
 }
 
 @-webkit-keyframes modalopen {
@@ -1398,6 +1424,36 @@ footer {
   100% {
     opacity: 1;
     transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+@media screen and (min-width: 1030px) {
+  .modal .modalcontent {
+    padding: 1% 8%;
+  }
+  .modal .modalcontent .modoru_btn {
+    font-size: 40px;
+    padding: 0 11px;
+  }
+  .modal .modalcontent .comingSoon {
+    font-size: 38px;
+    margin-bottom: 0.2em;
+  }
+  .modal .modalcontent .modalInfo {
+    font-size: 16px;
+    margin-bottom: 0.5em;
+  }
+  .modal .modalcontent .temporaryContents {
+    border: #000033 solid 4.5px;
+    width: 100%;
+    height: 68%;
+    padding: 16px;
+  }
+  .modal .modalcontent .temporaryContents .modaltitle {
+    font-size: 28px;
+  }
+  .modal .modalcontent .temporaryContents ul {
+    padding-left: 20px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */
