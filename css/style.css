@@ -1342,7 +1342,7 @@ footer {
 }
 .modal .modalcontent {
   position: relative;
-  width: 90%;
+  width: 95%;
   height: 80%;
   margin: 10vh auto 0;
   background-color: #66ccff;
@@ -1382,11 +1382,24 @@ footer {
   padding: 16px;
 }
 .modal .modalcontent .temporaryContents .modaltitle {
-  font-size: 24px;
+  font-size: 8vw;
+  font-family: isemin, sans-serif;
+}
+.modal .modalcontent .temporaryContents .temporaryInfo {
+  font-weight: bold;
+}
+.modal .modalcontent .temporaryContents p {
+  margin: 1vw 0;
+  font-family: new-tegomin, sans-serif;
+  font-size: 3.5vw;
+}
+.modal .modalcontent .temporaryContents .modalListTitle {
+  font-size: 8vw;
+  font-weight: bolder;
 }
 .modal .modalcontent .temporaryContents ul {
   padding-left: 16px;
-  font-size: 13px;
+  font-size: 3.2vw;
 }
 
 @-webkit-keyframes modalopen {
@@ -1429,6 +1442,7 @@ footer {
 @media screen and (min-width: 1030px) {
   .modal .modalcontent {
     padding: 1% 8%;
+    width: 90%;
   }
   .modal .modalcontent .modoru_btn {
     font-size: 40px;
@@ -1446,10 +1460,16 @@ footer {
     border: #000033 solid 4.5px;
     width: 100%;
     height: 68%;
-    padding: 16px;
+    padding: 16px 5vw;
   }
   .modal .modalcontent .temporaryContents .modaltitle {
-    font-size: 28px;
+    font-size: 3vw;
+  }
+  .modal .modalcontent .temporaryContents .temporaryInfo {
+    font-size: 1.2vw;
+  }
+  .modal .modalcontent .temporaryContents .modalListTitle {
+    font-size: 3vw;
   }
   .modal .modalcontent .temporaryContents ul {
     padding-left: 20px;
