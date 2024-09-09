@@ -702,6 +702,8 @@ section {
   color: #66ccff;
   font-family: new-tegomin, sans-serif;
   font-size: 3.6vw;
+  width: 32vw;
+  text-align: center;
   cursor: pointer;
 }
 #works .works_container .zakkaSpace .viewmore::before, #works .works_container .zakkaSpace .viewmore::after {
@@ -1143,6 +1145,8 @@ footer {
   }
   #works .works_container .zakkaSpace .viewmore {
     right: 8vw;
+    font-size: 1.2vw;
+    width: 9vw;
   }
   #works #accesory h3 {
     transform: translateX(3.4vw);
@@ -1380,7 +1384,7 @@ footer {
   width: 100%;
   height: 68%;
   overflow-y: scroll;
-  padding: 16px;
+  padding: 12px;
 }
 .modal .modalcontent .temporaryContents .modaltitle {
   font-size: 8vw;
@@ -1392,7 +1396,7 @@ footer {
 .modal .modalcontent .temporaryContents p {
   margin: 1vw 0;
   font-family: new-tegomin, sans-serif;
-  font-size: 3.4vw;
+  font-size: 3.3vw;
 }
 .modal .modalcontent .temporaryContents .modalListTitle {
   font-size: 8vw;
