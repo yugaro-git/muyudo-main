@@ -701,6 +701,7 @@ section {
   border: #66ccff double 4px;
   color: #66ccff;
   font-family: new-tegomin, sans-serif;
+  font-size: 3.6vw;
   cursor: pointer;
 }
 #works .works_container .zakkaSpace .viewmore::before, #works .works_container .zakkaSpace .viewmore::after {
@@ -1391,7 +1392,7 @@ footer {
 .modal .modalcontent .temporaryContents p {
   margin: 1vw 0;
   font-family: new-tegomin, sans-serif;
-  font-size: 3.5vw;
+  font-size: 3.4vw;
 }
 .modal .modalcontent .temporaryContents .modalListTitle {
   font-size: 8vw;
