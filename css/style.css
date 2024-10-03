@@ -833,6 +833,21 @@ section {
   bottom: 1px;
   right: 2%;
 }
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(2) {
+  width: 11.5%;
+  bottom: 1px;
+  left: 8%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(3) {
+  width: 15%;
+  bottom: 1px;
+  left: 26%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(4) {
+  width: 6%;
+  bottom: 1px;
+  left: 72%;
+}
 #contact .creatorContainer .creatorBox .cItem:nth-child(3) img {
   position: absolute;
 }
@@ -1040,8 +1055,8 @@ footer {
     height: 80vw;
   }
   #about h2 {
-    font-size: 9vw;
-    top: 1.5vw;
+    font-size: 8.5vw;
+    top: 2vw;
     left: 10vw;
   }
   #about h2 span {

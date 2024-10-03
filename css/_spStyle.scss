@@ -638,6 +638,21 @@ section {
               bottom: 1px;
               right: 2%;
             }
+            &:nth-child(2) {
+              width: 11.5%;
+              bottom: 1px;
+              left: 8%;
+            }
+            &:nth-child(3) {
+              width: 15%;
+              bottom: 1px;
+              left: 26%;
+            }
+            &:nth-child(4) {
+              width: 6%;
+              bottom: 1px;
+              left: 72%;
+            }
           }
         }
         &:nth-child(3) {
