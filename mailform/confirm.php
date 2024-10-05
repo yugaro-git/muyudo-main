@@ -72,7 +72,7 @@ $isMailSent = @mail($to, $subject, $body, $headers);
         <h1>お問い合わせ確認</h1>
         <?php if ($isMailSent): ?>
             <div class="confirmMessage">
-                お問い合わせを受け付けました。ありがとうございます。
+                お問い合わせを受け付けました。 <br>ありがとうございます。
             </div>
         <?php else: ?>
             <div class="confirmMessage">

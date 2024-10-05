@@ -539,51 +539,24 @@ section {
 }
 #about .about_catch {
   position: absolute;
-  top: 40vw;
-  right: 8%;
-  font-size: 6.5vw;
+  top: 38vw;
+  left: 31.5%;
+  font-size: 6.8vw;
   color: #faebd7;
   font-family: "New Tegomin", serif;
   text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.6);
 }
-#about .about_catch span:nth-child(2) {
-  padding-left: 4vw;
-}
-#about .about_catch span:nth-child(4) {
-  padding-left: 20vw;
-}
 #about .about_text {
+  font-size: 3.8vw;
   position: absolute;
-  top: 85vw;
-  right: 10%;
-  padding: 5vw;
+  top: 75.5vw;
+  left: 31.5%;
   color: #66ccff;
-  width: 50vw;
-  height: 60vw;
-  border-radius: 10px;
-  border: 1px solid #66ccff;
+  width: 65vw;
   font-family: "New Tegomin", serif;
 }
-#about .about_text::before {
-  content: "";
-  background-image: url(../img/frame/flame1.png);
-  transform: rotate(180deg);
-  position: absolute;
-  top: -6vw;
-  right: -6vw;
-  width: 15vw;
-  height: 15vw;
-  background-size: cover;
-}
-#about .about_text::after {
-  content: "";
-  background-image: url(../img/frame/flame1.png);
-  position: absolute;
-  bottom: -6vw;
-  left: -6vw;
-  width: 15vw;
-  height: 15vw;
-  background-size: cover;
+#about .about_text p {
+  margin-bottom: 2vw;
 }
 
 .workSpace {
@@ -728,6 +701,10 @@ section {
   border: #66ccff double 4px;
   color: #66ccff;
   font-family: new-tegomin, sans-serif;
+  font-size: 3.6vw;
+  width: 32vw;
+  text-align: center;
+  cursor: pointer;
 }
 #works .works_container .zakkaSpace .viewmore::before, #works .works_container .zakkaSpace .viewmore::after {
   position: absolute;
@@ -854,7 +831,37 @@ section {
 #contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(1) {
   width: 15%;
   bottom: 1px;
-  right: 2%;
+  right: 4%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(2) {
+  width: 11.5%;
+  bottom: 1px;
+  left: 6%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(3) {
+  width: 9%;
+  bottom: 1px;
+  left: 23%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(4) {
+  width: 6%;
+  bottom: 1px;
+  left: 71%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(5) {
+  width: 8%;
+  bottom: 1px;
+  left: 61.5%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(6) {
+  width: 10%;
+  bottom: 1px;
+  left: 47%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(7) {
+  width: 10%;
+  bottom: 1px;
+  left: 35%;
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(3) img {
   position: absolute;
@@ -883,6 +890,39 @@ section {
   left: 14%;
   width: 50%;
 }
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img {
+  position: absolute;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(1) {
+  width: 19%;
+  bottom: 1px;
+  left: 2px;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(2) {
+  width: 13.5%;
+  bottom: 1px;
+  left: 20%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(3) {
+  width: 26.5%;
+  bottom: 1px;
+  left: 37%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(4) {
+  width: 8%;
+  bottom: 1px;
+  left: 70%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(5) {
+  width: 8%;
+  bottom: 1px;
+  left: 80%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(6) {
+  width: 9%;
+  bottom: 1px;
+  right: 3px;
+}
 #contact .creatorContainer .profile {
   background-color: #000033;
   margin: 2vw 0;
@@ -891,6 +931,7 @@ section {
 }
 #contact .creatorContainer .profile h3 {
   font-size: 8vw;
+  font-family: isemin, sans-serif;
 }
 #contact .creatorContainer .profile .profileImg {
   width: 60vw;
@@ -900,6 +941,7 @@ section {
 }
 #contact .creatorContainer .profile .profileInfo {
   text-align: center;
+  font-family: new-tegomin, sans-serif;
 }
 #contact .creatorContainer .creatorSNS ul {
   display: flex;
@@ -940,9 +982,19 @@ section {
   left: 16.5%;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(3) {
-  width: 26.5%;
+  width: 18%;
   bottom: 1px;
   right: 2px;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(4) {
+  width: 10.5%;
+  bottom: 1px;
+  right: 21.5%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(5) {
+  width: 4%;
+  bottom: 1px;
+  right: 35%;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(1) .light {
   left: 20%;
@@ -957,22 +1009,72 @@ section {
   position: absolute;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(1) {
-  width: 11.5%;
+  width: 18%;
   bottom: 1px;
-  left: 8vw;
+  left: 2px;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(2) {
-  width: 24%;
+  width: 26%;
   bottom: 1px;
-  left: 20vw;
+  left: 20%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(3) {
+  width: 18%;
+  bottom: 1px;
+  left: 50%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(4) {
+  width: 5%;
+  bottom: 1px;
+  left: 70%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(5) {
+  width: 9%;
+  bottom: 1px;
+  right: 12%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(6) {
+  width: 9%;
+  bottom: 1px;
+  right: 2px;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(5) img {
   position: absolute;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(1) {
+  width: 21%;
+  bottom: 1px;
+  left: 4px;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(2) {
+  width: 10%;
+  bottom: 1px;
+  left: 25%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(3) {
+  width: 10%;
+  bottom: 1px;
+  left: 36%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(4) {
+  width: 5%;
+  bottom: 1px;
+  left: 50%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(5) {
+  width: 5%;
+  bottom: 1px;
+  left: 57%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(6) {
+  width: 5%;
+  bottom: 1px;
+  left: 64%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(7) {
   width: 26%;
   bottom: 1px;
-  left: 10%;
+  right: 2px;
 }
 #contact .contactContainer .contactBox {
   background-color: #000033;
@@ -981,6 +1083,7 @@ section {
 }
 #contact .contactContainer .contactBox .contactInfo {
   margin-bottom: 3vw;
+  font-family: new-tegomin, sans-serif;
 }
 #contact .contactContainer .inquiry {
   display: block;
@@ -991,6 +1094,7 @@ section {
   text-decoration: none;
   color: #66ccff;
   text-align: center;
+  font-family: isemin, sans-serif;
 }
 #contact .contactContainer .muyudoSNS ul {
   display: flex;
@@ -1010,74 +1114,6 @@ section {
 #contact li {
   list-style: none;
   width: 10vw;
-}
-
-.table {
-  position: relative;
-  width: 70vw;
-  height: 40vw;
-}
-.table div {
-  position: absolute;
-  background-color: #66ccff;
-}
-.table div:nth-child(1) {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 6%;
-}
-.table div:nth-child(2) {
-  top: 6%;
-  left: 6%;
-  width: 5%;
-  height: 94%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(3) {
-  top: 6%;
-  right: 6%;
-  width: 5%;
-  height: 94%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(4) {
-  top: 7%;
-  left: 12%;
-  width: 37.5%;
-  height: 22%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(5) {
-  top: 7%;
-  right: 12%;
-  width: 37.5%;
-  height: 22%;
-  box-shadow: inset 0 1vw 1.5vw #000033;
-}
-.table div:nth-child(6) {
-  top: 30%;
-  left: 11.5%;
-  width: 77%;
-  height: 2%;
-}
-.table div:nth-child(7) {
-  top: 16%;
-  left: 28%;
-  width: 3vw;
-  height: 3vw;
-  border: 1px solid #000033;
-  border-radius: 50%;
-  box-shadow: 0.2vw 0.2vw 0.8vw #000033;
-}
-.table div:nth-child(8) {
-  top: 16%;
-  right: 28%;
-  width: 3vw;
-  height: 3vw;
-  border: 1px solid #000033;
-  border-radius: 50%;
-  box-shadow: 0.2vw 0.2vw 0.8vw #000033;
 }
 
 footer {
@@ -1127,7 +1163,7 @@ footer {
     height: 80vw;
   }
   #about h2 {
-    font-size: 9vw;
+    font-size: 8.5vw;
     top: 2vw;
     left: 10vw;
   }
@@ -1144,26 +1180,15 @@ footer {
   }
   #about .about_catch {
     font-size: 3vw;
-    top: 7vw;
-    right: 22%;
+    top: 5.5vw;
+    left: 48%;
   }
   #about .about_text {
-    top: 25vw;
-    right: 22%;
+    font-size: 1.2vw;
+    top: 22.5vw;
+    left: 48%;
     width: 35vw;
     height: 15vw;
-  }
-  #about .about_text::before {
-    top: -3vw;
-    right: -3vw;
-    width: 8vw;
-    height: 8vw;
-  }
-  #about .about_text::after {
-    bottom: -3vw;
-    left: -3vw;
-    width: 8vw;
-    height: 8vw;
   }
   .workSpace {
     height: 80vw;
@@ -1174,7 +1199,7 @@ footer {
     writing-mode: horizontal-tb;
     font-size: 12vw;
     left: 5vw;
-    top: 1vw;
+    top: 1.8vw;
   }
   .workSpace .shelfBoard:nth-of-type(2) {
     top: 27vw;
@@ -1243,6 +1268,8 @@ footer {
   }
   #works .works_container .zakkaSpace .viewmore {
     right: 8vw;
+    font-size: 1.2vw;
+    width: 9vw;
   }
   #works #accesory h3 {
     transform: translateX(3.4vw);
@@ -1351,19 +1378,30 @@ footer {
   #contact .creatorContainer .creatorBox {
     padding: 1.5vw 3.5vw 0;
   }
+  #contact .creatorContainer .creatorBox .cItem:nth-child(3) img:nth-child(3) {
+    width: 13%;
+  }
   #contact .creatorContainer .creatorBox .profile {
+    position: relative;
     margin: 0.5vw 0;
-    padding: 1.5vw 3vw;
+    padding: 4.8vw 3vw 1.5vw;
     font-size: 1.2vw;
   }
   #contact .creatorContainer .creatorBox .profile h3 {
-    font-size: 4vw;
+    font-size: 2.8vw;
+    margin-left: 5vw;
+  }
+  #contact .creatorContainer .creatorBox .profile h4 {
+    font-size: 2vw;
   }
   #contact .creatorContainer .creatorBox .profile .profileImg {
     width: 24vw;
     height: 16vw;
-    margin: 3.2vw auto;
+    margin: 1.8vw auto 3vw;
     border: #faebd7 2px solid;
+  }
+  #contact .creatorContainer .creatorBox .profile .profileInfo {
+    font-size: 1.2vw;
   }
   #contact .creatorContainer .creatorSNS ul {
     margin: 0.5vw 0;
@@ -1391,13 +1429,179 @@ footer {
   }
   #contact .contactContainer .contactContents .contactBox {
     margin: 1vw 0;
+    position: relative;
   }
-  #contact h2 {
-    font-size: 3.4vw;
-    height: 3.2vw;
+  #contact .contactContainer .contactContents .contactBox .contactInfo {
+    font-size: 2.1vw;
+  }
+  #contact .contactContainer .contactContents .contactBox .muyudoSNS h3 {
+    font-size: 2vw;
+  }
+  #contact .contactContainer .contactContents .inquiry {
+    font-size: 3vw;
+    padding: 1vw;
+    width: 30vw;
   }
   #contact li {
     width: 3vw;
+  }
+  #contact h2 {
+    color: #66ccff;
+    font-size: 8vw;
+    height: initial;
+    position: absolute;
+    top: -3vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    opacity: 0.2;
+  }
+}
+.modal {
+  position: relative;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.14);
+  overflow: auto;
+}
+.modal .modalcontent {
+  position: relative;
+  width: 95%;
+  height: 80%;
+  margin: 10vh auto 0;
+  background-color: #66ccff;
+  color: #000033;
+  padding: 5%;
+  -webkit-animation: modalopen 0.7s ease 0s 1 normal forwards running;
+          animation: modalopen 0.7s ease 0s 1 normal forwards running;
+}
+.modal .modalcontent .modoru_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  display: block;
+  padding: 0 8px;
+  border: #000033 solid 3px;
+  background-color: #66ccff;
+  color: #000033;
+  cursor: pointer;
+}
+.modal .modalcontent .comingSoon {
+  font-size: 32px;
+  font-family: isemin, sans-serif;
+  margin-bottom: 0.5em;
+}
+.modal .modalcontent .modalInfo {
+  font-size: 13px;
+  font-weight: bolder;
+  font-family: new-tegomin, sans-serif;
+  margin-bottom: 1em;
+}
+.modal .modalcontent .temporaryContents {
+  border: #000033 solid 3.5px;
+  width: 100%;
+  height: 68%;
+  overflow-y: scroll;
+  padding: 12px;
+}
+.modal .modalcontent .temporaryContents .modaltitle {
+  font-size: 8vw;
+  font-family: isemin, sans-serif;
+}
+.modal .modalcontent .temporaryContents .temporaryInfo {
+  font-weight: bold;
+}
+.modal .modalcontent .temporaryContents p {
+  margin: 1vw 0;
+  font-family: new-tegomin, sans-serif;
+  font-size: 3.3vw;
+}
+.modal .modalcontent .temporaryContents .modalListTitle {
+  font-size: 8vw;
+  font-weight: bolder;
+}
+.modal .modalcontent .temporaryContents ul {
+  padding-left: 16px;
+  font-size: 3.2vw;
+}
+
+@-webkit-keyframes modalopen {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.5, 0, -100);
+  }
+  20% {
+    opacity: 0.3;
+    transform: matrix(0.5, 0, 0, 1.5, 0, -50);
+  }
+  60% {
+    opacity: 1;
+    transform: matrix(1.1, 0, 0, 1, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+
+@keyframes modalopen {
+  0% {
+    opacity: 0;
+    transform: matrix(0.5, 0, 0, 0.5, 0, -100);
+  }
+  20% {
+    opacity: 0.3;
+    transform: matrix(0.5, 0, 0, 1.5, 0, -50);
+  }
+  60% {
+    opacity: 1;
+    transform: matrix(1.1, 0, 0, 1, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+}
+@media screen and (min-width: 1030px) {
+  .modal .modalcontent {
+    padding: 1% 8%;
+    width: 90%;
+  }
+  .modal .modalcontent .modoru_btn {
+    font-size: 40px;
+    padding: 0 11px;
+  }
+  .modal .modalcontent .comingSoon {
+    font-size: 38px;
+    margin-bottom: 0.2em;
+  }
+  .modal .modalcontent .modalInfo {
+    font-size: 16px;
+    margin-bottom: 0.5em;
+  }
+  .modal .modalcontent .temporaryContents {
+    border: #000033 solid 4.5px;
+    width: 100%;
+    height: 68%;
+    padding: 16px 5vw;
+  }
+  .modal .modalcontent .temporaryContents .modaltitle {
+    font-size: 3vw;
+  }
+  .modal .modalcontent .temporaryContents .temporaryInfo {
+    font-size: 1.2vw;
+  }
+  .modal .modalcontent .temporaryContents .modalListTitle {
+    font-size: 3vw;
+  }
+  .modal .modalcontent .temporaryContents ul {
+    padding-left: 20px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=style.css.map */

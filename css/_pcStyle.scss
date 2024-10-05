@@ -1,3 +1,6 @@
+$color1: #66ccff;
+$color2: #000033;
+
 // タイトル分のサイズ調整
 @media screen and (min-width: 800px) {
   .first_view {
@@ -49,7 +52,7 @@
   #about {
     height: 80vw;
     h2 {
-      font-size: 9vw;
+      font-size: 8.5vw;
       top: 2vw;
       left: 10vw;
       span {
@@ -68,28 +71,16 @@
 
     .about_catch {
       font-size: 3vw;
-      top: 7vw;
-      right: 22%;
+      top: 5.5vw;
+      left: 48%;
     }
 
     .about_text {
-      top: 25vw;
-      right: 22%;
+      font-size: 1.2vw;
+      top: 22.5vw;
+      left: 48%;
       width: 35vw;
       height: 15vw;
-
-      &::before {
-        top: -3vw;
-        right: -3vw;
-        width: 8vw;
-        height: 8vw;
-      }
-      &::after {
-        bottom: -3vw;
-        left: -3vw;
-        width: 8vw;
-        height: 8vw;
-      }
     }
   }
 
@@ -102,7 +93,7 @@
       writing-mode: horizontal-tb;
       font-size: 12vw;
       left: 5vw;
-      top: 1vw;
+      top: 1.8vw;
     }
     .shelfBoard {
       &:nth-of-type(2) {
@@ -185,6 +176,8 @@
         height: 9vw;
         .viewmore {
           right: 8vw;
+          font-size: 1.2vw;
+          width: 9vw;
         }
       }
     }
@@ -320,18 +313,38 @@
       .creatorBox {
         padding: 1.5vw 3.5vw 0;
 
+        .cItem {
+          &:nth-child(3) {
+            img {
+              &:nth-child(3) {
+                width: 13%;
+              }
+            }
+          }
+        }
+
         .profile {
+          position: relative;
           margin: 0.5vw 0;
-          padding: 1.5vw 3vw;
+          padding: 4.8vw 3vw 1.5vw;
           font-size: 1.2vw;
+
           h3 {
-            font-size: 4vw;
+            font-size: 2.8vw;
+            margin-left: 5vw;
+          }
+          h4 {
+            font-size: 2vw;
           }
           .profileImg {
             width: 24vw;
             height: 16vw;
-            margin: 3.2vw auto;
+            margin: 1.8vw auto 3vw;
             border: #faebd7 2px solid;
+          }
+
+          .profileInfo {
+            font-size: 1.2vw;
           }
         }
       }
@@ -373,16 +386,37 @@
 
         .contactBox {
           margin: 1vw 0;
+          position: relative;
+          .contactInfo {
+            font-size: 2.1vw;
+          }
+
+          .muyudoSNS {
+            h3 {
+              font-size: 2vw;
+            }
+          }
+        }
+        .inquiry {
+          font-size: 3vw;
+          padding: 1vw;
+          width: 30vw;
         }
       }
     }
 
-    h2 {
-      font-size: 3.4vw;
-      height: 3.2vw;
-    }
     li {
       width: 3vw;
+    }
+    h2 {
+      color: $color1;
+      font-size: 8vw;
+      height: initial;
+      position: absolute;
+      top: -3vw;
+      left: 50%;
+      transform: translate(-50%, 0);
+      opacity: 0.2;
     }
   }
 }

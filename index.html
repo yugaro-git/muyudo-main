@@ -44,7 +44,7 @@
     />
     <script src="lottie/lottie-player.js"></script>
     <!-- style -->
-    <link rel="stylesheet" href="css/style.min.css?0821" />
+    <link rel="stylesheet" href="css/style.min.css?09052" />
   </head>
   <body class="hamSwich">
     <header>
@@ -105,15 +105,23 @@
         </div>
         <!-- キャッチコピーを入れる -->
         <p class="about_catch">
-          他にはない<br /><span>ここならではの</span><br /><span
-            >デザインを</span
+          想いを形に、<br /><span>あなたに</span><br /><span
+            >特別なデザインを</span
           >
         </p>
         <!-- 一味違う楽しいデザインを -->
         <div class="about_text">
           <!-- 夢遊堂は webやグラフィック アクセサリーや雑貨を デザイン・作成し
             生活に楽しさを お届けします。 -->
-          夢遊堂ではデザインや創作を通して、
+          <p>
+            例えば、<br />
+            個性を活かしたサイトで、 <br />貴社の魅力を最大限に引き出します。
+          </p>
+          <p>
+            例えば、<br />
+            個性的なデザインの<br />アクセサリーやアートで<br />あなたの生活を彩ります。
+          </p>
+          夢遊堂では、<br />ここならではのデザインで様々なものをつくります。
         </div>
       </section>
 
@@ -189,14 +197,15 @@
             <div class="works_img"><img src="img/accetest.jpg" alt="" /></div>
 
             <p class="accesory_text">
-              銀や真鍮を素材に
-              <br />遊び心のあるここだけのデザインを
-              <br />メインに制作しています。
+              銀や真鍮、レジンなどを使って
+              <br />遊び心のあるここだけのデザインを <br />制作しています。
             </p>
             <div class="zakkaSpace">
               <img src="img/pendanto.webp" alt="" />
               <img src="img/yubiwa.webp" alt="" />
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_accesorry">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
           <div id="web" class="works_container">
@@ -206,15 +215,16 @@
             <div class="works_img"><img src="img/webtest.jpg" alt="" /></div>
 
             <p class="accesory_text">
-              webサイトやバナー等を作ります。<br />
-              「内容がわかりやすい」<br />
-              「印象に残る」<br />
-              ようなデザインを意識しています。
+              個性派から定番まで<br />
+              あなたの伝えたいことを形にする<br />
+              webサイトやバナーを作ります。
             </p>
             <div class="zakkaSpace">
               <img src="img/this-is-a-pen.webp" alt="" />
               <img src="img/inkBottle.webp" alt="" />
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_web">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
           <div id="movie" class="works_container">
@@ -223,7 +233,9 @@
 
             <div class="works_img"><img src="" alt="" /></div>
 
-            <p class="accesory_text">映像つくる</p>
+            <p class="accesory_text">
+              映像制作、編集やweb用の<br />アニメーションアイコン等を作成し<br />コンテンツをより豊かにします。
+            </p>
             <div class="zakkaSpace">
               <div class="zakkaMove">
                 <lottie-player
@@ -242,7 +254,9 @@
                 ></lottie-player>
               </div>
 
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_movie">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
           <div id="other" class="works_container">
@@ -256,7 +270,9 @@
             </p>
             <div class="zakkaSpace">
               <img src="img/karasuokimno.webp" alt="" />
-              <a href="" class="viewmore">詳しく見る&rArr;</a>
+              <div href="" class="viewmore" data-modal="modal_other">
+                詳しく見る&rArr;
+              </div>
             </div>
           </div>
         </div>
@@ -270,24 +286,34 @@
           <div class="creatorBox">
             <div class="cItem">
               <img src="img/ueki1.webp" alt="" />
+              <img src="img/neko.webp" alt="" />
+              <img src="img/inkBottle.webp" alt="" />
+              <img src="img/tubo.webp" alt="" />
+              <img src="img/tubo2.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
             </div>
 
             <div class="profile">
+              <h2 class="pcOnly">creator</h2>
               <h3>ユガロ</h3>
               <div class="profileImg"><img src="" alt="" /></div>
               <p class="profileInfo">
                 夢遊堂のメインのクリエーターです。
-                <br />というか今は一人なのでメインも何もないですがいずれはチームでの活動を予定してます。
+                <br />というか今は一人なのでメインも何もないですが
+                <br />いずれはチームでの活動を予定してます。
               </p>
 
               <div class="creatorSNS pcOnly">
                 <ul>
                   <h4>個人SNS</h4>
                   <li>
-                    <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+                    <a href="https://x.com/fool_karasu"
+                      ><img src="img/SNS/Xlogo.svg" alt=""
+                    /></a>
                   </li>
                   <li>
-                    <a href=""
+                    <a href="https://www.instagram.com/yugaro72/"
                       ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
                     /></a>
                   </li>
@@ -314,16 +340,25 @@
               <ul>
                 <h4>個人SNS</h4>
                 <li>
-                  <a href=""><img src="img/SNS/Xlogo.svg" alt="" /></a>
+                  <a href="https://x.com/fool_karasu"
+                    ><img src="img/SNS/Xlogo.svg" alt=""
+                  /></a>
                 </li>
                 <li>
-                  <a href=""
+                  <a href="https://www.instagram.com/yugaro72/"
                     ><img src="img/SNS/Instagram_Glyph_White.svg" alt=""
                   /></a>
                 </li>
               </ul>
             </div>
-            <div class="cItem"></div>
+            <div class="cItem">
+              <img src="img/book2.webp" alt="" />
+              <img src="img/book3.webp" alt="" />
+              <img src="img/hako1.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/tubo2.webp" alt="" />
+            </div>
           </div>
         </div>
         <div class="contactContainer">
@@ -332,7 +367,9 @@
             <div class="cItem animationSwich">
               <img src="img/ueki2.webp" alt="" />
               <img src="img/yumerantan.webp" alt="" />
-              <img src="img/book1.webp" alt="" />
+              <img src="img/book2.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/tubo.webp" alt="" />
               <div class="light"></div>
               <div class="crowAnimation">
                 <lottie-player
@@ -345,6 +382,7 @@
               </div>
             </div>
             <div class="contactBox">
+              <h2 class="pcOnly">creator</h2>
               <p class="contactInfo">
                 活動に対するお問い合わせや <br />近況はこちらから
               </p>
@@ -367,8 +405,12 @@
             </div>
 
             <div class="cItem">
-              <img src="img/neko.webp" alt="" />
-              <img src="img/karasuokimno.webp" alt="" /><img src="" alt="" />
+              <img src="img/book2.webp" alt="" />
+              <img src="img/karasuokimno.webp" alt="" />
+              <img src="img/hako1.webp" alt="" />
+              <img src="img/tubo2.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
             </div>
 
             <div class="muyudoSNS spOnly">
@@ -386,26 +428,186 @@
             </div>
             <div class="cItem">
               <img src="img/hako1.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/bin.webp" alt="" />
+              <img src="img/tubo.webp" alt="" />
+              <img src="img/tubo.webp" alt="" />
+              <img src="img/tubo.webp" alt="" />
+              <img src="img/book1.webp" alt="" />
             </div>
           </div>
         </div>
-        <div class="contactTable">
-          <div class="table">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+      </section>
+
+      <!-- 以下は詳細ページ作成までの仮モーダル -->
+      <div class="modal" id="modal_accesorry">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          <p class="comingSoon">Coming Soon...</p>
+          <p class="modalInfo">
+            このコンテンツの個別ページは製作中です。
+            <br />以下のようなことができますので
+            <br />何かございましたらお気軽にご相談ください。
+          </p>
+
+          <div class="temporaryContents">
+            <h2 class="modaltitle">accesory</h2>
+            <p class="temporaryInfo">
+              金属の美しさとハンドメイドの温もりを <br class="spOnly" />大切に、
+              <br class="pcOnly" />銀や真鍮を使った彫金や鋳造による<br
+                class="spOnly"
+              />アクセサリーを制作しています。
+              <br />独自のデザインで、あなたのスタイルに<br
+                class="spOnly"
+              />ぴったりの一品を提供します。
+              <br />また、粘土やレジンを用いた造形も得意で、<br
+                class="spOnly"
+              />個性的でユニークな作品をお届けします。
+              <br />オーダーメイドにも対応しており、<br
+                class="spOnly"
+              />あなただけの特別なアクセサリーを<br
+                class="spOnly"
+              />お作りします。
+            </p>
+            <p class="modalListTitle">skill</p>
+            <ul>
+              <li>銀や真鍮を用いたアクセサリー制作</li>
+              <li>粘土やレジンを用いた造形制作</li>
+              <li>デザインから制作までのオーダーメイド対応</li>
+            </ul>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="modal" id="modal_web">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          <p class="comingSoon">Coming Soon...</p>
+          <p class="modalInfo">
+            このコンテンツの個別ページは製作中です。
+            <br />以下のようなことができますので
+            <br />何かございましたらお気軽にご相談ください。
+          </p>
+
+          <div class="temporaryContents">
+            <h2 class="modaltitle">web</h2>
+            <p class="temporaryInfo">
+              Lottieアニメーションを活用した<br
+                class="spOnly"
+              />インタラクティブなデザインサイトの制作や、<br />LPページ、コーポレートサイト、ECサイトの<br
+                class="spOnly"
+              />制作を行います。<br class="pcOnly" />ユーザーにとって<br
+                class="spOnly"
+              />使いやすく、かつ見た目にも美しいサイトを<br
+                class="spOnly"
+              />提供します。<br />また、Shopifyを用いたECサイトの<br
+                class="spOnly"
+              />カスタマイズや運用サポート、<br />Googleアナリティクスを活用したSEO解析と<br
+                class="spOnly"
+              />改善提案も得意としています。<br />あなたのビジネスをデジタルで支え、<br
+                class="spOnly"
+              />成果を最大化します。
+            </p>
+            <p class="modalListTitle">skill</p>
+            <ul>
+              <li>
+                lottieアニメーションなどを<br
+                  class="spOnly"
+                />活用したデザインサイト
+              </li>
+              <li>LPページ、コーポレートサイト等のウェブ制作</li>
+              <li>shopfyを用いたECページのサポート</li>
+              <li>googleアナリティクスを用いたSEO解析</li>
+              <li>バナーやアイコン等のデザイン作成</li>
+              <li>写真の編集加工</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="modal_movie">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          <p class="comingSoon">Coming Soon...</p>
+          <p class="modalInfo">
+            このコンテンツの個別ページは製作中です。
+            <br />以下のようなことができますので
+            <br />何かございましたらお気軽にご相談ください。
+          </p>
+
+          <div class="temporaryContents">
+            <h2 class="modaltitle">movie</h2>
+            <p class="temporaryInfo">
+              After Effectsを用いたアニメーション制作や<br
+                class="spOnly"
+              />プロモーションビデオの作成、<br
+                class="spOnly"
+              />動画編集を行います。<br />バナーやアイコンなどの<br
+                class="spOnly"
+              />グラフィックデザインも含め、<br
+                class="spOnly"
+              />視覚的に魅力的なコンテンツを提供します。<br />動画の編集やエフェクトの追加、<br
+                class="spOnly"
+              />カット編集など、細部にまでこだわり、<br />視覚的なインパクトを<br
+                class="spOnly"
+              />最大限に引き出す作品をお届けします。
+            </p>
+            <p class="modalListTitle">skill</p>
+            <ul>
+              <li>簡易なアニメーションやモーショングラフィック</li>
+              <li>
+                webページ用のアニメーションボタンや<br
+                  class="spOnly"
+                />アイコンの作成
+              </li>
+              <li>
+                動画の編集<br
+                  class="spOnly"
+                />（カット編集、エフェクト追加、カラーグレーディング）
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal" id="modal_other">
+        <div class="modalcontent">
+          <button class="modoru_btn modal_return">&times;</button>
+          <p class="comingSoon">Coming Soon...</p>
+          <p class="modalInfo">
+            このコンテンツの個別ページは製作中です。
+            <br />以下のようなことができますので
+            <br />何かございましたらお気軽にご相談ください。
+          </p>
+
+          <div class="temporaryContents">
+            <h2 class="modaltitle">other</h2>
+            <p class="temporaryInfo">
+              ウェブ制作やアクセサリー制作だけでなく、<br
+                class="spOnly"
+              />粘土やレジンを用いた造形や<br
+                class="spOnly"
+              />ハンドメイド作品の制作も得意です。<br />幅広い素材と技術を駆使し、<br
+                class="spOnly"
+              />あなたのアイデアを<br
+                class="spOnly"
+              />形にするお手伝いをします。<br />オリジナルのプロジェクトやアート作品など、<br
+                class="spOnly"
+              />あなたのクリエイティブなビジョンを<br
+                class="spOnly"
+              />サポートします。
+            </p>
+            <p class="modalListTitle">skill</p>
+            <ul>
+              <li>粘土やレジンを用いた造形制作</li>
+              <li>ハンドメイド作品の企画・制作</li>
+              <li>多様な素材を活用したアート作品制作</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p><small>&copy;夢遊堂</small></p>
     </footer>
-    <script src="js/main.js?0711"></script>
+    <script src="js/main.js?0825"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>
