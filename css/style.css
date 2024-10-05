@@ -831,22 +831,37 @@ section {
 #contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(1) {
   width: 15%;
   bottom: 1px;
-  right: 2%;
+  right: 4%;
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(2) {
   width: 11.5%;
   bottom: 1px;
-  left: 8%;
+  left: 6%;
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(3) {
-  width: 15%;
+  width: 9%;
   bottom: 1px;
-  left: 26%;
+  left: 23%;
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(4) {
   width: 6%;
   bottom: 1px;
-  left: 72%;
+  left: 71%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(5) {
+  width: 8%;
+  bottom: 1px;
+  left: 61.5%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(6) {
+  width: 10%;
+  bottom: 1px;
+  left: 47%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(1) img:nth-child(7) {
+  width: 10%;
+  bottom: 1px;
+  left: 35%;
 }
 #contact .creatorContainer .creatorBox .cItem:nth-child(3) img {
   position: absolute;
@@ -874,6 +889,39 @@ section {
   top: calc(-3.1vw - 1px);
   left: 14%;
   width: 50%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img {
+  position: absolute;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(1) {
+  width: 19%;
+  bottom: 1px;
+  left: 2px;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(2) {
+  width: 13.5%;
+  bottom: 1px;
+  left: 20%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(3) {
+  width: 26.5%;
+  bottom: 1px;
+  left: 37%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(4) {
+  width: 8%;
+  bottom: 1px;
+  left: 70%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(5) {
+  width: 8%;
+  bottom: 1px;
+  left: 80%;
+}
+#contact .creatorContainer .creatorBox .cItem:nth-child(5) img:nth-child(6) {
+  width: 9%;
+  bottom: 1px;
+  right: 3px;
 }
 #contact .creatorContainer .profile {
   background-color: #000033;
@@ -938,6 +986,16 @@ section {
   bottom: 1px;
   right: 2px;
 }
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(4) {
+  width: 10.5%;
+  bottom: 1px;
+  right: 21.5%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(1) img:nth-child(5) {
+  width: 4%;
+  bottom: 1px;
+  right: 35%;
+}
 #contact .contactContainer .contactContents .cItem:nth-child(1) .light {
   left: 20%;
 }
@@ -951,22 +1009,72 @@ section {
   position: absolute;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(1) {
-  width: 11.5%;
+  width: 18%;
   bottom: 1px;
-  left: 8vw;
+  left: 2px;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(2) {
-  width: 24%;
+  width: 26%;
   bottom: 1px;
-  left: 20vw;
+  left: 20%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(3) {
+  width: 18%;
+  bottom: 1px;
+  left: 50%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(4) {
+  width: 5%;
+  bottom: 1px;
+  left: 70%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(5) {
+  width: 9%;
+  bottom: 1px;
+  right: 12%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(3) img:nth-child(6) {
+  width: 9%;
+  bottom: 1px;
+  right: 2px;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(5) img {
   position: absolute;
 }
 #contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(1) {
+  width: 21%;
+  bottom: 1px;
+  left: 4px;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(2) {
+  width: 10%;
+  bottom: 1px;
+  left: 25%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(3) {
+  width: 10%;
+  bottom: 1px;
+  left: 36%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(4) {
+  width: 5%;
+  bottom: 1px;
+  left: 50%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(5) {
+  width: 5%;
+  bottom: 1px;
+  left: 57%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(6) {
+  width: 5%;
+  bottom: 1px;
+  left: 64%;
+}
+#contact .contactContainer .contactContents .cItem:nth-child(5) img:nth-child(7) {
   width: 26%;
   bottom: 1px;
-  left: 10%;
+  right: 2px;
 }
 #contact .contactContainer .contactBox {
   background-color: #000033;

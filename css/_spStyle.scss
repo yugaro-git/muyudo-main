@@ -636,22 +636,37 @@ section {
             &:nth-child(1) {
               width: 15%;
               bottom: 1px;
-              right: 2%;
+              right: 4%;
             }
             &:nth-child(2) {
               width: 11.5%;
               bottom: 1px;
-              left: 8%;
+              left: 6%;
             }
             &:nth-child(3) {
-              width: 15%;
+              width: 9%;
               bottom: 1px;
-              left: 26%;
+              left: 23%;
             }
             &:nth-child(4) {
               width: 6%;
               bottom: 1px;
-              left: 72%;
+              left: 71%;
+            }
+            &:nth-child(5) {
+              width: 8%;
+              bottom: 1px;
+              left: 61.5%;
+            }
+            &:nth-child(6) {
+              width: 10%;
+              bottom: 1px;
+              left: 47%;
+            }
+            &:nth-child(7) {
+              width: 10%;
+              bottom: 1px;
+              left: 35%;
             }
           }
         }
@@ -683,6 +698,42 @@ section {
             top: calc(-3.1vw - 1px);
             left: 14%;
             width: 50%;
+          }
+        }
+        &:nth-child(5) {
+          img {
+            position: absolute;
+            &:nth-child(1) {
+              width: 19%;
+              bottom: 1px;
+              left: 2px;
+            }
+
+            &:nth-child(2) {
+              width: 13.5%;
+              bottom: 1px;
+              left: 20%;
+            }
+            &:nth-child(3) {
+              width: 26.5%;
+              bottom: 1px;
+              left: 37%;
+            }
+            &:nth-child(4) {
+              width: 8%;
+              bottom: 1px;
+              left: 70%;
+            }
+            &:nth-child(5) {
+              width: 8%;
+              bottom: 1px;
+              left: 80%;
+            }
+            &:nth-child(6) {
+              width: 9%;
+              bottom: 1px;
+              right: 3px;
+            }
           }
         }
       }
@@ -753,6 +804,16 @@ section {
               bottom: 1px;
               right: 2px;
             }
+            &:nth-child(4) {
+              width: 10.5%;
+              bottom: 1px;
+              right: 21.5%;
+            }
+            &:nth-child(5) {
+              width: 4%;
+              bottom: 1px;
+              right: 35%;
+            }
           }
           .light {
             left: 20%;
@@ -769,14 +830,34 @@ section {
           img {
             position: absolute;
             &:nth-child(1) {
-              width: 11.5%;
+              width: 18%;
               bottom: 1px;
-              left: 8vw;
+              left: 2px;
             }
             &:nth-child(2) {
-              width: 24%;
+              width: 26%;
               bottom: 1px;
-              left: 20vw;
+              left: 20%;
+            }
+            &:nth-child(3) {
+              width: 18%;
+              bottom: 1px;
+              left: 50%;
+            }
+            &:nth-child(4) {
+              width: 5%;
+              bottom: 1px;
+              left: 70%;
+            }
+            &:nth-child(5) {
+              width: 9%;
+              bottom: 1px;
+              right: 12%;
+            }
+            &:nth-child(6) {
+              width: 9%;
+              bottom: 1px;
+              right: 2px;
             }
           }
         }
@@ -784,9 +865,39 @@ section {
           img {
             position: absolute;
             &:nth-child(1) {
+              width: 21%;
+              bottom: 1px;
+              left: 4px;
+            }
+            &:nth-child(2) {
+              width: 10%;
+              bottom: 1px;
+              left: 25%;
+            }
+            &:nth-child(3) {
+              width: 10%;
+              bottom: 1px;
+              left: 36%;
+            }
+            &:nth-child(4) {
+              width: 5%;
+              bottom: 1px;
+              left: 50%;
+            }
+            &:nth-child(5) {
+              width: 5%;
+              bottom: 1px;
+              left: 57%;
+            }
+            &:nth-child(6) {
+              width: 5%;
+              bottom: 1px;
+              left: 64%;
+            }
+            &:nth-child(7) {
               width: 26%;
               bottom: 1px;
-              left: 10%;
+              right: 2px;
             }
           }
         }
