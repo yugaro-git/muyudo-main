@@ -449,6 +449,13 @@ section {
       margin: 0 auto;
       border: $color1 double 4px;
       overflow: hidden;
+      text-align: center;
+      font-size: 2rem;
+      color: #faebd7;
+      font-family: isemin, sans-serif;
+      img {
+        transform: translate(0, -10%);
+      }
     }
 
     .accesory_text {

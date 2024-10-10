@@ -680,6 +680,13 @@ section {
   margin: 0 auto;
   border: #66ccff double 4px;
   overflow: hidden;
+  text-align: center;
+  font-size: 2rem;
+  color: #faebd7;
+  font-family: isemin, sans-serif;
+}
+#works .works_container .works_img img {
+  transform: translate(0, -10%);
 }
 #works .works_container .accesory_text {
   height: 35vw;
